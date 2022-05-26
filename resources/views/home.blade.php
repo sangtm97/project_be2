@@ -4,6 +4,7 @@
     @include('head')
 </head>
 <body>
+    @include('module-2')
     @include('module-3')
 </body>
 </html>

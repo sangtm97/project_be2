@@ -1,0 +1,116 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-2 .container {
+  max-width: 1200px !important;
+}
+.module-2 .page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+  font-size: 14px;
+  color: #909090;
+}
+.module-2 .page-header a {
+  color: #909090;
+  text-decoration: none;
+}
+.module-2 .page-header i {
+  font-size: 10px;
+  margin: 0 5px;
+}
+.module-2 .page-header__title {
+  font-size: 32px;
+  margin: 0;
+  padding: 42px 20px 30px 20px;
+  text-align: center;
+  color: #000;
+}
+.module-2 .slider {
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+}
+.module-2 .slides {
+  width: 950%;
+  height: 500px;
+  display: flex;
+}
+.module-2 .slides input {
+  display: none;
+}
+.module-2 .slide {
+  width: 20%;
+  transform: 2s;
+}
+.module-2 .slide img {
+  width: 1500px;
+  height: 500px;
+}
+.module-2 .navigation-manual {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.module-2 .manual-btn {
+  border: 2px solid #d0cbcb;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: 1s;
+  display: none;
+}
+.module-2 .manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.module-2 .manual-btn:hover {
+  background: #d0cbcb;
+  display: none;
+}
+.module-2 #radio1:checked ~ .first {
+  margin-left: 0;
+}
+.module-2 #radio2:checked ~ .first {
+  margin-left: -20%;
+}
+.module-2 .navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 500px;
+}
+.module-2 .navigation-auto div {
+  border: 2px solid #d0cbcb;
+  display: none;
+  padding: 5px;
+  border-radius: 10px;
+  transform: 1s;
+}
+.module-2 .navigation-auto div:not(:last-child) {
+  margin-right: 40px;
+}
+.module-2 #radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #d0cbcb;
+}
+.module-2 #radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #d0cbcb;
+}
+.module-2 .slide-description p {
+  font-size: 25px;
+}
+.module-2 .slide-content {
+  position: absolute;
+  margin: 150px 100px;
+}
+.module-2 .button-shopnow {
+  text-decoration: none #000;
+}
