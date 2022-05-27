@@ -1,0 +1,65 @@
+@import "../vars.less";
+body{
+    font-family: 'Jost', sans-serif;
+}
+.module-8{
+    .container {
+        max-width: 1200px !important;
+      }
+    .banner {
+        position: relative;
+        overflow: hidden;
+        transition: all 0.4s;
+      }
+    .banner img {
+        display: block;
+        transition: all 0.4s ease-in-out;
+        width: 100%;
+      }
+    
+    .banner-content {
+        position: absolute;
+        top: 0;
+        height: 570px;
+        padding: 40px 50px;
+        cursor: pointer;
+      }
+    .banner-position-left{
+        left: 0;
+    }
+    .banner-position-right{
+        right: 0;
+    }
+    .banner-content .banner-content-inner__left{
+        text-align: left;
+      }
+    .banner-content .banner-content-inner__right{
+        text-align: right;
+      }
+    .banner-content .banner-content__title{
+        margin-bottom: 20px;
+        font-size: 36px;
+        color: #fff;
+      }
+    .banner-content .banner-content__description {
+        margin-bottom: 28px;
+        color: #fff;
+      }
+    .banner-content .banner-button-group {
+        color: #fff;
+      }
+    .banner-content .banner-button-group i {
+        color: #fff;
+        font-size: 13px;
+        margin-left: 10px;
+        transition: all 0.4s;
+      }
+    .banner:hover img{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    .banner:hover .banner-button-group i{
+        transform: translateX(2px);
+    }
+}
