@@ -8,6 +8,9 @@
 <link href="./5/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./5/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+<link href="./6/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="./6/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
 <link href="./8/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./8/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -33,6 +36,16 @@ $less = new lessc;
 $less->compileFile('./5/public/less/module-5.less', './5/public/css/module-5.css');
 ?>
 <link href="./5/public/css/module-5.css" rel="stylesheet" type="text/css" />
+
+<!-- Module-6 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./6/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./6/public/less/module-6.less', './6/public/css/module-6.css');
+?>
+<link href="./6/public/css/module-6.css" rel="stylesheet" type="text/css" />
 
 {{-- Module-8 --}}
 <?php
