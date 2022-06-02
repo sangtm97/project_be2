@@ -1,0 +1,78 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.module-10 .container {
+  max-width: 1200px !important;
+}
+.module-10 .title-footer>h1 {
+  font-size: 32px;
+}
+.module-10 .title-footer>h6 {
+  color: #8f8d8f;
+  font-weight: 400;
+  font-size: 16px;
+}
+.module-10 .title-1 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2.5rem;
+}
+.module-10 .title-1 h6 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #404040;
+  font-weight: 400;
+}
+.module-10 .title-2 a {
+  text-decoration: none;
+  color: #404040;
+}
+.module-10 .title-3 a {
+  text-decoration: none;
+  color: #404040;
+}
+.module-10 .footer-1 h6 {
+  color: #404040;
+  font-weight: 400;
+  font-size: 14px;
+}
+.module-10 .footer-2 a {
+  text-decoration: none;
+  color: #404040;
+  font-weight: 400;
+  font-size: 14px;
+}
+.module-10 .icon {
+  color: #404040;
+}
+.module-10 .div1 {
+  position: relative;
+  width: fit-content;
+  height: auto;
+  display: block;
+}
+.module-10 .div1:hover .gachchan {
+  position: absolute;
+  transition: 0.5s;
+  width: 100%;
+}
+.module-10 .gachchan {
+  border-bottom: 1px solid black;
+  width: 0%;
+}
+.module-10 .input {
+  border: none;
+  width: 100%;
+}
+.module-10 .icon>a {
+  text-decoration: none;
+  color: #404040;
+  font-size: 20px;
+  padding: 0 6px;
+}
+.module-10 .icon>a:hover i {
+  color: #010101;
+}

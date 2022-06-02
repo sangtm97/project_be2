@@ -1,0 +1,24 @@
+llKeyConvertedToUnknown>0</NullKeyConvertedToUnknown>
+				<NullKeyNotAllowed>1</NullKeyNotAllowed>
+				<CalculationError>0</CalculationError>
+			</LogErrorTypes>
+			<IgnoreDataTruncation>0</IgnoreDataTruncation>
+		</ErrorLog>
+		<QueryLog>
+			<QueryLogSampling>10</QueryLogSampling>
+			<QueryLogFileName/>
+			<QueryLogFileSize>4</QueryLogFileSize>
+			<QueryLogConnectionString/>
+			<QueryLogTableName>OlapQueryLog</QueryLogTableName>
+			<CreateQueryLogTable>0</CreateQueryLogTable>
+			<UBOMaxQueries>100</UBOMaxQueries>
+		</QueryLog>
+		<Exception>
+			<CreateAndSendCrashReports>1</CreateAndSendCrashReports>
+			<CrashReportsFolder/>
+			<SQLDumperFlagsOn>0x0</SQLDumperFlagsOn>
+			<SQLDumperFlagsOff>0x0</SQLDumperFlagsOff>
+			<MiniDumpFlagsOn>0x0</MiniDumpFlagsOn>
+			<MiniDumpFlagsOff>0x0</MiniDumpFlagsOff>
+			<MinidumpErrorList>0xC1000000, 0xC1000001, 0xC102003F, 0xC1360054, 0xC1360055</MinidumpErrorList>
+			<Exce
