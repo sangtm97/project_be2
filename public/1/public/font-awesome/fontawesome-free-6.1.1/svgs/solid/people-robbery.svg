@@ -1,0 +1,48 @@
+Module
+                </span></td>
+<td><span class="detail-name">
+                    Average Module Utilization (%)
+                </span></td>
+</tr>
+<tr>
+<td>\SystemRoot\system32\ntoskrnl.exe</td>
+<td>0.28</td>
+</tr>
+<tr>
+<td>\SystemRoot\System32\Drivers\Ntfs.sys</td>
+<td>0.08</td>
+</tr>
+<tr>
+<td>\SystemRoot\System32\drivers\dxgmms1.sys</td>
+<td>0.06</td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            warning-log-entry
+                        ">
+<div class="log-entry-header">CPU Utilization:Individual process with significant processor utilization.</div>
+<div class="log-entry-content">
+<div class="log-entry-description">This process is responsible for a significant portion of the total processor utilization recorded during the trace.</div>
+<table>
+<tr>
+<td><span class="detail-name">Process Name</span></td>
+<td>svchost.exe</td>
+</tr>
+<tr>
+<td><span class="detail-name">PID</span></td>
+<td>120</td>
+</tr>
+<tr>
+<td><span class="detail-name">Average Utilization (%)</span></td>
+<td>0.48</td>
+</tr>
+<tr>
+<td><span class="detail-name">
+                    Module
+                </span></td>
+<td><span class="detail-name">
+                    Average Module Utilization (%)
+                </span></

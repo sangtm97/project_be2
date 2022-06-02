@@ -1,0 +1,35 @@
+ng files off an image into windows explorer
+  +) More commandline parameters for creating new directory and setting 
+     path in ISO image   
+  *) Supports up to 255 characters in file name when UDF volume is used  
+  *) Some minor bugs fixed  
+
+20, UltraISO 6.55 (February 6, 2004) 
+  +) Supports commandline parameters to create an iso image and to 
+     add files to an iso image.
+  +) Supports Adding files to a floppy image (.IMA)
+  +) Multi-languages version is available   
+  +) Tips for bootable information (Emulation/No Emulation and boot
+     image size)
+  *) Extract reallocated directorys in RockRidge volume
+  *) Fix a bug with 'boot catalog' file for some Unix/linux bootable CDs 
+  *) Use ISO 9660 volume name by default
+  *) Some minor bugs fixed  
+
+19, UltraISO 6.52 SR-2 (January 5, 2004) 
+  +) Option to generate bootinfotable for boot image (Linux bootable CDs)
+  +) Sorting-functionality for time, size and type
+  +) Check disk free space before saving an image file   
+  +) Supports MINI-CDR (221MB/25Min) media type
+  *) Overwrite same name directory by default   
+  *) Do not change Joliet name length settings where option of 
+     'Add Joliet Volume as Needed' is not checked    
+  *) Some minor bugs fixed  
+
+18, UltraISO 6.52 SR-1 (December 5, 2003) 
+  +) Set exec/search bit of access mode for folders/files (Unix/Linux CDs)
+  +) Show progress information when adding large amount of files to 
+     image or optimizing the CD file systems
+  *) Fixed the unexpected '.rr_moved' folder creation problem if 
+     directory depth exceeds 8 levels
+  *) Burn curren

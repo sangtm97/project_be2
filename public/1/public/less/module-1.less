@@ -1,0 +1,156 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.module-1{
+  //làm header
+  .container{
+    max-width: 1200px !important;
+  }
+  .container-fluid{
+    background-color: #f5f5f5;
+  }
+  .hehe1>h6{
+    font-weight: 500;
+    font-size: 14px;
+    color: #404040;
+    line-height: 26px;
+  }
+  .tieude2 h3>b{
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+  }
+  //danh mục 1
+  .list-danhmuc{
+    display: flex;
+    justify-content: space-between;
+  }
+  .danhmuc>a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .danhmuc{
+    display: inline-flex;
+  }
+  .danhmuc:hover a{
+    color: #ff6f61;
+  }
+  //danh mục 2
+  .danhmuc2>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    // margin: 0 5px;
+  }
+  .danhmuc2{
+    display: inline-block;
+    //
+    position: relative;
+    width: fit-content;
+    height: auto;
+  }
+  .danhmuc2:hover a{
+    color: #ff6f61;
+  }
+  .danhmuc2:hover .gachchan2{
+    color: #ff6f61;
+    position: absolute;
+    transition: 0.5s;
+    width: 100%;
+  }
+  .gachchan2{
+    border-bottom: 1px solid #ff6f61;
+    width: 0%;
+}
+//làm menu ngang
+  .menu-dropdown {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 12px;
+    z-index: 1;
+    
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .menu-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content .div{
+    background-color: #a0a0a0;
+    padding: 12px 12px;
+  }
+
+//thanh tìm kiếm 2
+.tieude2 form {
+  background-color: #fff;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+}
+.tieude2 input {
+  all: unset;
+  font: 16px system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+.tieude2 button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+  //làm icon header
+  .icon>a{
+    text-decoration: none;
+    color: #504f4f;
+    padding: 0 6px  ;
+  }
+  .icon>a:hover i{
+    color: #000000;
+  }
+
+  //làm thẻ a gạch chân
+  .div1{
+    position: relative;
+    width: fit-content;
+    height: auto;
+    display: block;
+  }
+  .div1:hover .gachchan{
+    position: absolute;
+    transition: 0.5s;
+    width: 100%;
+  }
+  .gachchan{
+      border-bottom: 1px solid black;
+      width: 0%;
+  }
+
+  // kết thúc
+}

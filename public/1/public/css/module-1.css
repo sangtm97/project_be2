@@ -1,0 +1,139 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.module-1 .container {
+  max-width: 1200px !important;
+}
+.module-1 .container-fluid {
+  background-color: #f5f5f5;
+}
+.module-1 .hehe1>h6 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #404040;
+  line-height: 26px;
+}
+.module-1 .tieude2 h3>b {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+}
+.module-1 .list-danhmuc {
+  display: flex;
+  justify-content: space-between;
+}
+.module-1 .danhmuc>a {
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.module-1 .danhmuc {
+  display: inline-flex;
+}
+.module-1 .danhmuc:hover a {
+  color: #ff6f61;
+}
+.module-1 .danhmuc2>a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+.module-1 .danhmuc2 {
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  height: auto;
+}
+.module-1 .danhmuc2:hover a {
+  color: #ff6f61;
+}
+.module-1 .danhmuc2:hover .gachchan2 {
+  color: #ff6f61;
+  position: absolute;
+  transition: 0.5s;
+  width: 100%;
+}
+.module-1 .gachchan2 {
+  border-bottom: 1px solid #ff6f61;
+  width: 0%;
+}
+.module-1 .menu-dropdown {
+  position: relative;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+}
+.module-1 .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 12px;
+  z-index: 1;
+}
+.module-1 .dropdown-content a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+.module-1 .menu-dropdown:hover .dropdown-content {
+  display: block;
+}
+.module-1 .dropdown-content .div {
+  background-color: #a0a0a0;
+  padding: 12px 12px;
+}
+.module-1 .tieude2 form {
+  background-color: #fff;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+}
+.module-1 .tieude2 input {
+  all: unset;
+  font: 16px system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+.module-1 .tieude2 button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+.module-1 .icon>a {
+  text-decoration: none;
+  color: #504f4f;
+  padding: 0 6px;
+}
+.module-1 .icon>a:hover i {
+  color: #000000;
+}
+.module-1 .div1 {
+  position: relative;
+  width: fit-content;
+  height: auto;
+  display: block;
+}
+.module-1 .div1:hover .gachchan {
+  position: absolute;
+  transition: 0.5s;
+  width: 100%;
+}
+.module-1 .gachchan {
+  border-bottom: 1px solid black;
+  width: 0%;
+}

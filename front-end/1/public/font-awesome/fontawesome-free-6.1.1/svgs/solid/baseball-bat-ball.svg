@@ -1,0 +1,13 @@
+KeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="4519976-3053_neutral_LDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="serviceLevel">
+					<assemblyIdentity name="Microsoft-Windows-IE-F12DiagnosticsTap.Resources" version="11.2.9600.19507" processorArchitecture="amd64" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+					<assemblyIdentity name="Microsoft-Windows-IE-F12DiagnosticsTap.Resources" version="11.2.9600.19507" processorArchitecture="x86" language="en-US" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="1f81152ad5a572097316e7d18d6fbe9a" version="11.2.9600.19507" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			<
