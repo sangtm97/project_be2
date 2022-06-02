@@ -141,12 +141,12 @@
                                     <p class="comment-form-comment"><label for="comment">Your review&nbsp;<span
                                                 class="required">*</span></label><textarea id="comment" name="comment"
                                             cols="105" rows="8" required=""></textarea></p>
-                                    <p class="comment-form-author col-md-6"><label for="author">Name&nbsp;<span
+                                    <p class="comment-form-author col-md-5"><label for="author">Name&nbsp;<span
                                                 class="required">*</span></label><input id="author" name="author"
-                                            type="text" value="" size="50" required=""></p>
-                                    <p class="comment-form-email col-md-6"><label for="email">Email&nbsp;<span
-                                                class="required">*</span></label><input id="email" name="email"
-                                            type="email" value="" size="50" required=""></p>
+                                            type="text" value="" size="45" required=""></p>
+                                    <p class="comment-form-email col-md-5" style="padding-left: 19%;"><label
+                                            for="email">Email&nbsp;<span class="required">*</span></label><input
+                                            id="email" name="email" type="email" value="" size="45" required=""></p>
                                     <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent"
                                             name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label
                                             for="wp-comment-cookies-consent">Save my name, email, and website in
