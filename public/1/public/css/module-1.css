@@ -12,14 +12,15 @@
 }
 .module-1 .hehe1>h6 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 11px;
   color: #404040;
   line-height: 26px;
 }
 .module-1 .tieude2 h3>b {
   text-decoration: none;
   color: #000;
-  font-size: 32px;
+  font-size: 35px;
+  font-weight: 800;
 }
 .module-1 .list-danhmuc {
   display: flex;
@@ -49,6 +50,11 @@
   position: relative;
   width: fit-content;
   height: auto;
+  margin-left: 10px;
+}
+.module-1 .danhmuc2>a {
+  font-weight: 500;
+  font-size: 16px;
 }
 .module-1 .danhmuc2:hover a {
   color: #ff6f61;
@@ -93,12 +99,13 @@
 }
 .module-1 .tieude2 form {
   background-color: #fff;
-  width: 100%;
-  height: 55px;
+  width: 82%;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   border: 1px solid black;
+  margin-left: 40px;
 }
 .module-1 .tieude2 input {
   all: unset;
@@ -116,8 +123,8 @@
 }
 .module-1 .icon>a {
   text-decoration: none;
-  color: #504f4f;
-  padding: 0 6px;
+  color: #000000;
+  padding: 0 7px;
 }
 .module-1 .icon>a:hover i {
   color: #000000;
