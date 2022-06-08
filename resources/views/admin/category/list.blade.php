@@ -1,1 +1,37 @@
-<?php
+@extends('admin.main')
+
+@section('content')
+{{--    @if(session('message'))--}}
+{{--        <div class="alert alert-primary" role="alert">--}}
+{{--            {{session('message')}}--}}
+
+{{--        </div>--}}
+{{--    @endif--}}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Tên danh mục</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach($categories as $category)
+            <tr>
+                <td>{{$category->id}}</td>
+                <td>{{$category->category_name}}</td>
+                <td style="display: flex;gap: 6px">
+                    <a class="btn btn-primary btn-sm" href="{{route('edit', $category->id)}}">
+                        Edit
+                    </a>
+                    <form action="{{route('destroy', $category->id)}}" method="POST">
+                        @method('DELETE')
+                        @csrf
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        @endforeach
+        </tbody>
+    </table>
+@endsection
