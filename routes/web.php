@@ -21,6 +21,7 @@ Route::middleware(['auth'])->group(function () {
             Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
+            Route::get('search', [CategoryController::class, 'search'])->name('search');
         });
     });
 });
