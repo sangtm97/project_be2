@@ -1,5 +1,5 @@
 @extends('admin.main')
-
+<!-- Add protype -->
 @section('content')
     <form action="" method="POST">
         <div class="card-body">

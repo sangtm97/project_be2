@@ -17,7 +17,7 @@ class ProtypeController extends Controller
     {
         $this->protypeService = $protypeService;
     }
-
+    // add protype
     public function create(){
         return view('admin.protype.add', [
             'title' => 'Add New Protype'
