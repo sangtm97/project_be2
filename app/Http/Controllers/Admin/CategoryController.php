@@ -36,7 +36,7 @@ class CategoryController extends Controller
             compact('categories')
         );
     }
-
+    
     public function update(UpdateFormRequest $request, $id){
         $categories = Category::findOrFail($id);
         $categories->category_name = $request->input('category_name');
