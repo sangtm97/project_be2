@@ -1,0 +1,21 @@
+garian language
+  *) Fixed hung up problem when 'Optimize' is checked
+  *) Fixed "Default ISO folder" cannot change problem
+  *) Some minor bugs fixed
+
+11, UltraISO 5.55 SR-1 (March 28, 2003) 
+  +) Hanlde CD/DVD image up to 10GB 
+  +) Build-in ISO file manager, with user-defined "My ISO Files" folder 
+  +) Support .pdi (InstantCopy 7) CD/DVD image format
+  +) Support Windows special folder("My Documents")
+  +) Convert multiple CD Image files in batch mode
+  +) Support 2 more languages, include Russian and Swedish
+  *) Setup and document improvement
+  *) Some minor bugs fixed
+
+10, UltraISO 5.55 (February 22, 2003) 
+  +) Space Optimize for N in 1 CD builder(works like cdimage form Microsoft)
+  +) Handle more than 26 data CD image format, include 7 new format:
+         NTI CD-Maker          *.NCD              
+         Prassi                *.GCD/*.GI 
+         Gear                  *

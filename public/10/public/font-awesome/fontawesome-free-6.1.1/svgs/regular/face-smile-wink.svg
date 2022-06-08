@@ -1,0 +1,16 @@
+pend</Priv>
+    <Priv id="VirtualMachine.Interact.ToolsInstall">VirtualMachine.Interact.ToolsInstall</Priv>
+    <Priv id="VirtualMachine.Inventory.Create">VirtualMachine.Inventory.Create</Priv>
+    <Priv id="VirtualMachine.Inventory.CreateFromExisting">VirtualMachine.Inventory.CreateFromExisting</Priv>
+    <Priv id="VirtualMachine.Inventory.Delete">VirtualMachine.Inventory.Delete</Priv>
+    <Priv id="VirtualMachine.Inventory.Register">VirtualMachine.Inventory.Register</Priv>
+    <Priv id="VirtualMachine.Inventory.Unregister">VirtualMachine.Inventory.Unregister</Priv>
+    <Priv id="VirtualMachine.Provisioning.GetVmFiles">VirtualMachine.Provisioning.GetVmFiles</Priv>
+    <Priv id="VirtualMachine.Provisioning.PutVmFiles">VirtualMachine.Provisioning.PutVmFiles</Priv>
+    <Priv id="VirtualMachine.State.CreateSnapshot">VirtualMachine.State.CreateSnapshot</Priv>
+    <Priv id="VirtualMachine.State.RemoveSnapshot">VirtualMachine.State.RemoveSnapshot</Priv>
+    <Priv id="VirtualMachine.State.RenameSnapshot">VirtualMachine.State.RenameSnapshot</Priv>
+    <Priv id="VirtualMachine.State.RevertToSnapshot">VirtualMachine.State.RevertToSnapshot</Priv>
+    <PrivRoleId>10</PrivRoleId>
+  </PrivSet>
+  <PrivS
