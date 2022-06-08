@@ -1,0 +1,5 @@
+ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-Optional-Package" language="neutral" version="11.2.9600.16428" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-Package" language="en-US" version="11.2.9600.16428" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-Package" version="11.2.9600.16428" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-VistaPlus-Update" language="neutral" version="11.2.9600.16428" processorArchitecture="amd64" publicKeyToken="

@@ -1,0 +1,28 @@
+ void.GetContents();
+        //             ^^^^ - variable # Technically illegal in this context, but at least it's not marked as a variable.
+
+        var subvoid2 = @void.GetContents();
+        //             ^^^^^ variable.other.cs - keyword
+
+        var msg = from + " " + to;
+        //        ^^^^ variable.other.cs - keyword
+    }
+}
+
+public class Coo
+{
+    public Object text = ObjectMaker.MakeSomeText ("In order to publish your text, you need to do some texty things 'Like this' and then say hello.");
+    //                               ^ variable.function
+    //                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ string.quoted.double
+    //                                                                                                                                              ^ - string
+    public Vector curves;
+    //            ^ variable.other.member
+    int Zoo()
+    //  ^ entity.name.function
+    {}
+}
+
+class Syntax
+{
+    public decimal decimal1 = 1.0m;
+    //                        ^^^^ meta.number

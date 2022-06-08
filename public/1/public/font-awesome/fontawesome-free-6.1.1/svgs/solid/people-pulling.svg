@@ -1,0 +1,62 @@
+onsible for a significant portion of the total processor utilization recorded during the trace.</div>
+<table>
+<tr>
+<td><span class="detail-name">Process Name</span></td>
+<td>svchost.exe</td>
+</tr>
+<tr>
+<td><span class="detail-name">PID</span></td>
+<td>5364</td>
+</tr>
+<tr>
+<td><span class="detail-name">Average Utilization (%)</span></td>
+<td>16.47</td>
+</tr>
+<tr>
+<td><span class="detail-name">
+                    Module
+                </span></td>
+<td><span class="detail-name">
+                    Average Module Utilization (%)
+                </span></td>
+</tr>
+<tr>
+<td>\SystemRoot\system32\ntoskrnl.exe</td>
+<td>8.33</td>
+</tr>
+<tr>
+<td>\SystemRoot\System32\Drivers\Ntfs.sys</td>
+<td>3.65</td>
+</tr>
+<tr>
+<td>\Device\HarddiskVolume1\Windows\System32\defragsvc.dll</td>
+<td>1.64</td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            warning-log-entry
+                        ">
+<div class="log-entry-header">CPU Utilization:Individual process with significant processor utilization.</div>
+<div class="log-entry-content">
+<div class="log-entry-description">This process is responsible for a significant portion of the total processor utilization recorded during the trace.</div>
+<table>
+<tr>
+<td><span class="detail-name">Process Name</span></td>
+<td>ssText3d.scr</td>
+</tr>
+<tr>
+<td><span class="detail-name">PID</span></td>
+<td>4504</td>
+</tr>
+<tr>
+<td><span class="detail-name">Average Utilization (%)</span></td>
+<td>4.17</td>
+</tr>
+<tr>
+<td><span class="detail-name">
+                    Module
+                </span></td>
+<td><span class
