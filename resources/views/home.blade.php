@@ -6,5 +6,7 @@
 <body>
     @include('module-2')
     @include('module-3')
+	@include('module-5')
+    @include('module-8')
 </body>
 </html>
