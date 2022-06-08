@@ -11,8 +11,8 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Tên danh mục</th>
-                <th>Chức năng</th>
+                <th>Category name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
