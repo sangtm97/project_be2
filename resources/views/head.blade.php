@@ -5,6 +5,9 @@
 <link href="./1/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./1/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+<link href="./1/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="./1/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
 <link href="./3/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./3/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -45,6 +48,16 @@ $less->compileFile('./3/public/less/module-3.less', './3/public/css/module-3.css
 ?>
 <link href="./3/public/css/module-3.css" rel="stylesheet" type="text/css" />
 
+<!-- module-2 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./2/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./2/public/less/module-2.less', './2/public/css/module-2.css');
+?>
+<link href="./2/public/css/module-2.css" rel="stylesheet" type="text/css" />
+
 <!-- Module-5 -->
 <?php
 if (!class_exists('lessc')) {
@@ -74,6 +87,5 @@ $less = new lessc;
 $less->compileFile('./10/public/less/module-10.less', './10/public/css/module-10.css');
 ?>
 <link href="./10/public/css/module-10.css" rel="stylesheet" type="text/css" />
-
 
 
