@@ -20,6 +20,9 @@
 <link href="./10/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./10/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+<link href="./9/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="./9/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -88,4 +91,15 @@ $less->compileFile('./10/public/less/module-10.less', './10/public/css/module-10
 ?>
 <link href="./10/public/css/module-10.css" rel="stylesheet" type="text/css" />
 
+
+
+<!-- Module-9 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./9/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./9/public/less/module-9.less', './9/public/css/module-9.css');
+?>
+<link href="./9/public/css/module-9.css" rel="stylesheet" type="text/css" />
 

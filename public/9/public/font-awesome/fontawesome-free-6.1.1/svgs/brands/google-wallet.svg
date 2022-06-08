@@ -1,0 +1,21 @@
+   			  | (?:\[[^\]]+\])?(?:\{[^}]+\})?(?:\([^)]+\))?
+        					# Lang, Style, Class
+        			)?
+        			(?:\.[ ])?            					# Optional
+        			([^\s(!]+?)         					# Image URL
+        			\s?                						# Optional space
+        			(?:\(((?:[^\(\)]|\([^\)]+\))+?)\))?   	# Optional title
+        			\!										# Close image
+        			(?:
+        				:
+        				(\S*?(?:\w|\/|;))					# URL
+        				(?=[^\w\/;]*?(<|\s|$))				# Catch closing punctuation
+        			)?
+      scope: meta.image.inline.textile
+      captures:
+        2: markup.underline.link.image.textile
+        3: string.other.link.description.textile
+        4: markup.underline.link.textile
+    - match: '\|(\([^)]*\)|\{[^}]*\})*(\\\||.)+\|'
+      scope: markup.other.table.cell.textile
+      captures:
