@@ -31,7 +31,7 @@ class UpdateFormRequest extends FormRequest
     public function messages()
     {
         return [
-            'category_name.required' => 'Nhập đầy đủ thông tin'
+            'category_name.required' => 'Enter category name'
         ];
     }
 }

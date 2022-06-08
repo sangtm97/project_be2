@@ -4,8 +4,8 @@
     <form action="" method="POST">
         <div class="card-body">
             <div class="form-group">
-                <label for="category">Category name</label>
-                <input type="text" name="category_name" class="form-control" id="exampleInputEmail1" placeholder="Enter category name">
+                <label for="category">Category Name</label>
+                <input type="text" name="category_name" class="form-control" id="exampleInputEmail1" placeholder="Enter category Name">
             </div>
         </div>
         <!-- /.card-body -->
