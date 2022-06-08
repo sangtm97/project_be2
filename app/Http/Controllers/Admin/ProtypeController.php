@@ -44,7 +44,7 @@ class ProtypeController extends Controller
         return redirect()->route('list')->with(['message' => 'Success']);
     }
 
-
+    // hien thi
     public function list(){
         $protypes = Protype::latest('id')->paginate(50);
         return view('admin.protype.list',[
@@ -52,7 +52,7 @@ class ProtypeController extends Controller
             compact('protypes')
         );
     }
-
+    // delete protype
     public function destroy($id){
         $protypes = Protype::findOrFail($id);
         $protypes->delete();

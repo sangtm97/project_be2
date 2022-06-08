@@ -1,5 +1,5 @@
 @extends('admin.main')
-
+<!-- delete protype -->
 @section('content')
     <table class="table">
         <thead>
