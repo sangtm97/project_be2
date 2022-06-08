@@ -29,28 +29,28 @@ class CategoryController extends Controller
         return redirect()->back();
     }
 
+    //edit category
     public function edit($id){
         $categories = Category::findOrFail($id);
         return view('admin.category.edit',[
-            'title'=>'Sửa Danh Mục'],
+            'title'=>'Update Category'],
             compact('categories')
         );
     }
 
+    //update category
     public function update(UpdateFormRequest $request, $id){
         $categories = Category::findOrFail($id);
         $categories->category_name = $request->input('category_name');
         $categories->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
-//        $this->categoryService->update($request, $category);
-//        return redirect('/admin/categories/list');
+        return redirect()->route('list')->with(['message' => 'Update category success']);
     }
 
 
     public function list(){
         $categories = Category::latest('id')->paginate(50);
         return view('admin.category.list',[
-            'title'=>'Danh sách danh mục'],
+            'title'=>'List Category'],
             compact('categories')
         );
     }

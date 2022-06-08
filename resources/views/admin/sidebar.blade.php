@@ -39,7 +39,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Danh Mục
+                Category
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -47,13 +47,13 @@
               <li class="nav-item">
                 <a href="./add" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Thêm danh mục</p>
+                  <p>Add New Category</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./list" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Danh sách danh mục</p>
+                  <p>List Categoory</p>
                 </a>
               </li>
             </ul>

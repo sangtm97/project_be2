@@ -18,6 +18,7 @@ Route::middleware(['auth'])->group(function () {
             Route::get('add', [CategoryController::class, 'create']);
             Route::post('add', [CategoryController::class, 'store']);
             Route::get('list', [CategoryController::class, 'list'])->name('list');
+            //Update category
             Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');

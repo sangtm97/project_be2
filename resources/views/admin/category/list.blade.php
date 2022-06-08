@@ -1,18 +1,12 @@
 @extends('admin.main')
 
 @section('content')
-{{--    @if(session('message'))--}}
-{{--        <div class="alert alert-primary" role="alert">--}}
-{{--            {{session('message')}}--}}
-
-{{--        </div>--}}
-{{--    @endif--}}
     <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Tên danh mục</th>
-                <th>Chức năng</th>
+                <th>Category name</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -21,6 +15,7 @@
                 <td>{{$category->id}}</td>
                 <td>{{$category->category_name}}</td>
                 <td style="display: flex;gap: 6px">
+                    {{--btn edit category --}}
                     <a class="btn btn-primary btn-sm" href="{{route('edit', $category->id)}}">
                         Edit
                     </a>
