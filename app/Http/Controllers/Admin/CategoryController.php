@@ -32,7 +32,7 @@ class CategoryController extends Controller
     public function edit($id){
         $categories = Category::findOrFail($id);
         return view('admin.category.edit',[
-            'title'=>'Sửa Danh Mục'],
+            'title'=>'Edit Category'],
             compact('categories')
         );
     }
@@ -42,15 +42,13 @@ class CategoryController extends Controller
         $categories->category_name = $request->input('category_name');
         $categories->update();
         return redirect()->route('list')->with(['message' => 'Success']);
-//        $this->categoryService->update($request, $category);
-//        return redirect('/admin/categories/list');
     }
 
 
     public function list(){
         $categories = Category::latest('id')->paginate(50);
         return view('admin.category.list',[
-            'title'=>'Danh sách danh mục'],
+            'title'=>'List Category'],
             compact('categories')
         );
     }

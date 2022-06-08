@@ -1,12 +1,6 @@
 @extends('admin.main')
 
 @section('content')
-{{--    @if(session('message'))--}}
-{{--        <div class="alert alert-primary" role="alert">--}}
-{{--            {{session('message')}}--}}
-
-{{--        </div>--}}
-{{--    @endif--}}
     <table class="table">
         <thead>
             <tr>
