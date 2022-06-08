@@ -24,6 +24,7 @@
                     <a class="btn btn-primary btn-sm" href="{{route('edit', $category->id)}}">
                         Edit
                     </a>
+                    //Delete
                     <form action="{{route('destroy', $category->id)}}" method="POST">
                         @method('DELETE')
                         @csrf
