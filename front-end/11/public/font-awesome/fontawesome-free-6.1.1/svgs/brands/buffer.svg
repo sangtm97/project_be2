@@ -1,0 +1,8 @@
+25	15:10:17:767	 324	1748	Misc	WARNING: WinHttp: SendRequestToServerForFileInformation failed with 0x8024402c
+2022-01-25	15:10:17:767	 324	1748	Misc	WARNING: WinHttp: ShouldFileBeDownloaded failed with 0x8024402c
+2022-01-25	15:10:17:767	 324	1748	Misc	WARNING: DownloadFileInternal failed for http://download.microsoft.com/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab: error 0x8024402c
+2022-01-25	15:10:17:767	 324	1748	Misc	Validating signature for C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\v6-win7sp1-wuredir.cab with dwProvFlags 0x00000080:
+2022-01-25	15:10:17:770	 324	1748	Misc	 Microsoft signed: NA
+2022-01-25	15:10:17:777	 324	1748	Misc	WARNING: Send failed with hr = 80072ee7.
+2022-01-25	15:10:17:777	 324	1748	Misc	WARNING: SendRequest failed with hr = 80072ee7. Proxy List used: <(null)> Bypass List used : <(null)> Auth Schemes used : <>
+2022-01-25	15:10:17:777	 324	1748	M
