@@ -12,7 +12,7 @@ class CategoryService
             Category::create([
                 'category_name' => (string)$request->input('category_name')
             ]);
-            Session::flash('success','Tạo danh mục thành công');
+            Session::flash('success','Create category success');
         }catch (\Exception $err){
             Session::flash('error', $err->getMessage());
             return false;

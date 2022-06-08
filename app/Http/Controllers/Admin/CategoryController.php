@@ -32,7 +32,7 @@ class CategoryController extends Controller
     public function edit($id){
         $categories = Category::findOrFail($id);
         return view('admin.category.edit',[
-            'title'=>'Sửa Danh Mục'],
+            'title'=>'Edit Category'],
             compact('categories')
         );
     }
@@ -42,15 +42,13 @@ class CategoryController extends Controller
         $categories->category_name = $request->input('category_name');
         $categories->update();
         return redirect()->route('list')->with(['message' => 'Success']);
-//        $this->categoryService->update($request, $category);
-//        return redirect('/admin/categories/list');
     }
 
 
     public function list(){
         $categories = Category::latest('id')->paginate(50);
         return view('admin.category.list',[
-            'title'=>'Danh sách danh mục'],
+            'title'=>'List Category'],
             compact('categories')
         );
     }
@@ -60,23 +58,4 @@ class CategoryController extends Controller
         $categories->delete();
         return redirect()->route('list')->with(['message' => 'Success']);
     }
-//    public function update($request, $menu):bool{
-////        $menu->category_name = (string)$request->input('category_name');
-////        $menu->save();
-////         Session::flash('success','Cập nhật thành công');
-////         return true;
-////        try {
-////            Category::update([
-////                'category_name' => (string)$request->input('category_name')
-////            ]);
-////            $menu->save();
-////            Session::flash('success','Tạo danh mục thành công');
-////        }catch (\Exception $err){
-////            Session::flash('error', $err->getMessage());
-////            return false;
-////        }
-////        return true;
-//    }
-
-
 }
