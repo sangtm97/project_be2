@@ -55,28 +55,10 @@ class CategoryController extends Controller
         );
     }
 
+    //Delete
     public function destroy($id){
         $categories = Category::findOrFail($id);
         $categories->delete();
         return redirect()->route('list')->with(['message' => 'Success']);
     }
-//    public function update($request, $menu):bool{
-////        $menu->category_name = (string)$request->input('category_name');
-////        $menu->save();
-////         Session::flash('success','Cập nhật thành công');
-////         return true;
-////        try {
-////            Category::update([
-////                'category_name' => (string)$request->input('category_name')
-////            ]);
-////            $menu->save();
-////            Session::flash('success','Tạo danh mục thành công');
-////        }catch (\Exception $err){
-////            Session::flash('error', $err->getMessage());
-////            return false;
-////        }
-////        return true;
-//    }
-
-
 }
