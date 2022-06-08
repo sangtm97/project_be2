@@ -43,7 +43,7 @@ class CategoryController extends Controller
         $categories = Category::findOrFail($id);
         $categories->category_name = $request->input('category_name');
         $categories->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('list')->with(['message' => 'Update categoty Success']);
     }
 
 
