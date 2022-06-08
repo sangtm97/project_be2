@@ -53,7 +53,7 @@ class CategoryController extends Controller
         );
     }
 
-    //Delete
+    // Delete
     public function destroy($id){
         $categories = Category::findOrFail($id);
         $categories->delete();

@@ -20,7 +20,7 @@ Route::middleware(['auth'])->group(function () {
             Route::get('list', [CategoryController::class, 'list'])->name('list');
             Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
-            //delete
+            // delete
             Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
         });
     });
