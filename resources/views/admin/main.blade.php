@@ -33,10 +33,17 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
+          @include('admin.alert')
         <div class="row">
           <!-- left column -->
           <div class="col-md-12">
             <!-- jquery validation -->
+              @if(session('message'))
+                  <div class="alert alert-primary" style="color: #004085;background-color: #cce5ff;border-color: #b8daff;margin-bottom: -12px;" role="alert">
+                      {{session('message')}}
+
+                  </div>
+              @endif
             <div class="card card-primary mt-3">
               <div class="card-header">
                 <h3 class="card-title">{{ $title }}</h3>

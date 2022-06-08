@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="/admin" class="brand-link">
       <img src="/template/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">Group D - Admin</span>
     </a>
 
     <!-- Sidebar -->
@@ -14,7 +14,7 @@
           <img src="/template/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Group D</a>
         </div>
       </div>
 
@@ -39,27 +39,21 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Category
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
+                <a href="./add" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>Add New Category</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="../../index2.html" class="nav-link">
+                <a href="./list" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../../index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>List Category</p>
                 </a>
               </li>
             </ul>
