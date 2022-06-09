@@ -13,8 +13,8 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,700;0,400;0,500;0,600;0,700;1,200;1,400&display=swap"
     rel="stylesheet">
+<!-- Module 7 -->
 <?php
-// Module7s
 if (!class_exists('lessc')) {
     include './7/public/libs/lessc.inc.php';
 }

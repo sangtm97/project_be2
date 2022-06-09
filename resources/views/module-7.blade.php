@@ -1,5 +1,4 @@
 <div class="module-7">
-
     <div class="container text-center my-3">
         <h1 class="font-weight-light">Recommended Products
         </h1>
@@ -304,7 +303,6 @@
             </div>
         </div>
     </div>
-
 </div>
 <script>
 let items = document.querySelectorAll('.module7 .carousel-item')
