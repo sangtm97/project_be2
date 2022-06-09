@@ -4,7 +4,7 @@
         <h1 class="font-weight-light">Best Seller
         </h1>
         <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="recipeCarousel" class="carousel module4 carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="col-md-3">
@@ -307,7 +307,7 @@
 
 </div>
 <script>
-let items = document.querySelectorAll('.carousel .carousel-item')
+let items = document.querySelectorAll('.module4 .carousel-item')
 
 items.forEach((el) => {
     const minPerSlide = 4
