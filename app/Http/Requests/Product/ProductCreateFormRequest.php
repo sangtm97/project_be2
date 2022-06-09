@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests\Category;
+namespace App\Http\Requests\Product;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class CategoryCreateFormRequest extends FormRequest
+class ProductCreateFormRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,14 +24,15 @@ class CategoryCreateFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'category_name' => 'required'
+            'product_name' => 'required',
+
         ];
     }
 
     public function messages()
     {
         return [
-            'category_name.required' => 'Enter category name'
+            'product_name.required' => 'Enter product name',
         ];
     }
 }

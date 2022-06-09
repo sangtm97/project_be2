@@ -1,6 +1,6 @@
 @extends('admin.main')
 @section('content')
-<form action="" method="POST">
+<form action="" method="POST" enctype="multipart/form-data">
     <div class="card-body">
         <div class="row">
             <div class="col-md-9">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group">
                     <label for="product">Product Image</label>
-                    <input type="text" name="product_image" class="form-control" id="exampleInputEmail1"
+                    <input type="file" name="file_upload" class="form-control" id="exampleInputEmail1"
                         placeholder="Choose Product Image">
                 </div>
             </div>

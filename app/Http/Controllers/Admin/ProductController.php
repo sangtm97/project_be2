@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Product\ProductCreateFormRequest;
 use App\Http\Requests\Product\UpdateFormRequest;
+use App\Http\Services\Category\CategoryService;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\Endow;
@@ -13,6 +14,11 @@ use App\Http\Services\Product\ProductService;
 
 class ProductController extends Controller
 {
+    protected $productService;
+    public function __construct(ProductService $productService)
+    {
+        $this->productService = $productService;
+    }
     /**
      * Display a listing of the resource.
      *
@@ -21,7 +27,7 @@ class ProductController extends Controller
     public function index()
     {
         //
-        
+
     }
 
     /**
@@ -35,7 +41,7 @@ class ProductController extends Controller
         $cats = Endow::orderBy('endow_name', 'ASC')->select('id', 'endow_name')->get();
         return view('admin.product.add', compact('cats'),[
             'title' => 'Add New Product'
-        ]); 
+        ]);
     }
 
     /**
@@ -45,6 +51,12 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(ProductCreateFormRequest $request){
+        if($request->has('file_upload')){
+            $file = $request->file_upload;
+            $file_name = $file->getClientoriginalName();
+            $file->move(public_path('upload'),$file_name);
+        }
+        $request->merge(['product_image' => $file_name]);
         $result = $this->productService->create($request);
         return redirect()->back();
     }
