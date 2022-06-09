@@ -61,48 +61,35 @@ class ProductController extends Controller
         return redirect()->back();
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+    public function edit($id){
+        $products = Product::findOrFail($id);
+        return view('admin.product.edit',[
+            'title'=>'Edit Product'],
+            compact('products')
+        );
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
+    public function update(\App\Http\Requests\Product\UpdateFormRequest $request, $id){
+        $products = Product::findOrFail($id);
+        $products->product_name = $request->input('product_name');
+        $products->product_price = $request->input('product_price');
+        $products->product_description = $request->input('product_description');
+        $products->update();
+        return redirect()->route('list')->with(['message' => 'Success']);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+
+    public function list(){
+        $products = Product::latest('id')->paginate(50);
+        return view('admin.product.list',[
+            'title'=>'List Product'],
+            compact('products')
+        );
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+    public function destroy($id){
+        $products = Product::findOrFail($id);
+        $products->delete();
+        return redirect()->route('list')->with(['message' => 'Success']);
     }
 }
