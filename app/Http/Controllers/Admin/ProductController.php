@@ -3,9 +3,15 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Product\ProductCreateFormRequest;
+use App\Http\Requests\Product\UpdateFormRequest;
+use App\Models\Category;
+use App\Models\Product;
+use App\Models\Endow;
 use Illuminate\Http\Request;
+use App\Http\Services\Product\ProductService;
 
-class Product extends Controller
+class ProductController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,6 +21,7 @@ class Product extends Controller
     public function index()
     {
         //
+        
     }
 
     /**
@@ -25,6 +32,10 @@ class Product extends Controller
     public function create()
     {
         //
+        $cats = Endow::orderBy('endow_name', 'ASC')->select('id', 'endow_name')->get();
+        return view('admin.product.add', compact('cats'),[
+            'title' => 'Add New Product'
+        ]); 
     }
 
     /**
@@ -33,9 +44,9 @@ class Product extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(ProductCreateFormRequest $request){
+        $result = $this->productService->create($request);
+        return redirect()->back();
     }
 
     /**

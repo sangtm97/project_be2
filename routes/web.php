@@ -7,7 +7,7 @@ use \App\Http\Controllers\Admin\MainController;
 use \App\Http\Controllers\Admin\CategoryController;
 use \App\Http\Controllers\Admin\ProtypeController;
 use \App\Http\Controllers\Admin\EndowController;
-use \App\Http\Controllers\Admin\ProtductController;
+use \App\Http\Controllers\Admin\ProductController;
 
 Route::get('admin/users/login',[LoginController::class,'index'])->name('login');
 Route::post('admin/users/login/store',[LoginController::class,'store']);
@@ -47,13 +47,13 @@ Route::middleware(['auth'])->group(function () {
         });
 
         #Product
-        Route::prefix('products')->group(function () {
+        Route::prefix('products')->group(function (){
             Route::get('add', [ProductController::class, 'create']);
             Route::post('add', [ProductController::class, 'store']);
-            Route::get('list', [ProductController::class, 'index']);
-            Route::get('edit/{product}', [ProductController::class, 'show']);
-            Route::post('edit/{product}', [ProductController::class, 'update']);
-            Route::DELETE('destroy', [ProductController::class, 'destroy']);
+            Route::get('list', [ProductController::class, 'list'])->name('list');
+            Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
+            Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
+            Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
         });
     });
 });
