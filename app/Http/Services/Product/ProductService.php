@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Http\Services\Product;
+namespace App\Http\Services\Category;
 
-use App\Models\Product;
+use App\Models\Category;
 use Illuminate\Support\Facades\Session;
 
-class ProductService
+class CategoryService
 {
     public function create($request){
         try {
-            Product::create([
-                'product_name' => (string)$request->input('product_name')
+            Category::create([
+                'category_name' => (string)$request->input('category_name')
             ]);
-            Session::flash('success','Create product success');
+            Session::flash('success','Create category success');
         }catch (\Exception $err){
             Session::flash('error', $err->getMessage());
             return false;
