@@ -1,15 +1,17 @@
 <?php
 
-use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\ProductDetailController;
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Maincontroller;
 use App\Http\Controllers\ListProductController;
+
 use \App\Http\Controllers\Admin\Users\LoginController;
 use \App\Http\Controllers\Admin\MainControllers;
 use \App\Http\Controllers\Admin\CategoryController;
 use \App\Http\Middleware\XSS;
 
+
+use App\Http\Controllers\Maincontroller;
+use App\Http\Controllers\ProductDetailController;
+use App\Http\Controllers\WishlistController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +28,9 @@ Route::get('/', [Maincontroller::class, 'index']);
 
 Route::get('/listproduct', [ListProductController::class, 'index']);
 
-
 Route::get('/wishlist', [WishlistController::class, 'index']);
 Route::get('/productDetail', [ProductDetailController::class, 'index']);
+
 Route::get('/', function () {
     return view('home');
 });
@@ -58,5 +60,6 @@ Route::middleware(['auth'])->group(function () {
   });
 
 });
+
 
 

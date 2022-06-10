@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class MainController extends Controller
 {
     public function index()
     {
-        return view('home', ['title' => 'Home']);
+        $bestsellers = DB::table('products')->where('endow_id', '=', 1)->get();
+        $recommended = DB::table('products')->where('endow_id', '=', 2)->get();
+        return view('home', ['bestsellers' => $bestsellers, 'recommendeds' => $recommended]);
+        //return dd($bestsellers);
     }
+
 }
