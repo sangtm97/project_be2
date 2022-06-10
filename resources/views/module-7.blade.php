@@ -7,7 +7,7 @@
                 <div class="carousel-inner" role="listbox">
 
                     <div class="carousel-item active ">
-                        <!-- @foreach ($recommendeds as $recommended ) -->
+                        @foreach ($recommendeds as $recommended )
                         <div class="col-md-3">
                             <div class="card">
                                 <div class="card-img">
@@ -49,11 +49,11 @@
                             </div>
                             <div class="product-summary text-start">
                                 <a href="" class="meta-cat">Furniture</a>
-                                <!-- <h2 class="product-title"><a href=""></a> {{$recommended->product_name}}</h2> -->
-                                <!-- <span class="price">${{$recommended->product_price}}</span> -->
+                                <h2 class="product-title"><a href=""></a> {{$recommended->product_name}}</h2>
+                                <span class="price">${{$recommended->product_price}}</span>
                             </div>
                         </div>
-                        <!-- @endforeach -->
+                        @endforeach
 
                     </div>
 
