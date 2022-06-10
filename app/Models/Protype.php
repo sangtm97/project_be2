@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Protype extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'protype_name'
+    ];
 }

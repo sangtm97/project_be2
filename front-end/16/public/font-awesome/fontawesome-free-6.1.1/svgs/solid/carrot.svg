@@ -1,0 +1,19 @@
+detectMinimumSupport>0</AutodetectMinimumSupport>
+			</MicrosoftAssociationRules>
+			<MicrosoftClustering>
+				<ProgID>FE8EF196-F59A-492d-A723-8E0C0332CF85</ProgID>
+				<ClusteringMethod>1</ClusteringMethod>
+				<ClusterCount>10</ClusterCount>
+				<MinimumSupport>1</MinimumSupport>
+				<ModellingCardinality>10</ModellingCardinality>
+				<StoppingTolerance>10</StoppingTolerance>
+				<SampleSize>50000</SampleSize>
+				<MaximumInputAttributes>255</MaximumInputAttributes>
+				<MaximumStates>100</MaximumStates>
+				<MinimumClusterCases>1</MinimumClusterCases>
+				<ClusterCountDeviation>10</ClusterCountDeviation>
+				<ClusterCountPrior>10</ClusterCountPrior>
+				<Normalization>1</Normalization>
+				<CaseLikelihoodNormalizationMethod>MARGINAL</CaseLikelihoodNormalizationMethod>
+			</MicrosoftClustering>
+			<MicrosoftD

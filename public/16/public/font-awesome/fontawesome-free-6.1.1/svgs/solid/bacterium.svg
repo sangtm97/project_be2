@@ -1,0 +1,54 @@
+   			  | (?:\[[^\]]+\])?(?:\{[^}]+\})?(?:\([^)]+\))?
+        					# Lang, Style, Class
+        			)?
+        			(?:\.[ ])?            					# Optional
+        			([^\s(!]+?)         					# Image URL
+        			\s?                						# Optional space
+        			(?:\(((?:[^\(\)]|\([^\)]+\))+?)\))?   	# Optional title
+        			\!										# Close image
+        			(?:
+        				:
+        				(\S*?(?:\w|\/|;))					# URL
+        				(?=[^\w\/;]*?(<|\s|$))				# Catch closing punctuation
+        			)?
+      scope: meta.image.inline.textile
+      captures:
+        2: markup.underline.link.image.textile
+        3: string.other.link.description.textile
+        4: markup.underline.link.textile
+    - match: '\|(\([^)]*\)|\{[^}]*\})*(\\\||.)+\|'
+      scope: markup.other.table.cell.textile
+      captures:
+        1: entity.name.type.textile
+    - match: '\B(\*\*)((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)\*\*\B'
+      scope: markup.bold.textile
+      captures:
+        3: entity.name.type.textile
+    - match: '\B(\*)((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)\*\B'
+      scope: markup.bold.textile
+      captures:
+        3: entity.name.type.textile
+    - match: '\B-((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)-\B'
+      scope: markup.deleted.textile
+      captures:
+        2: entity.name.type.textile
+    - match: '\B\+((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)\+\B'
+      scope: markup.inserted.textile
+      captures:
+        2: entity.name.type.textile
+    - match: '(?:\b|\s)_((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)_(?:\b|\s)'
+      scope: markup.italic.textile
+      captures:
+        2: entity.name.type.textile
+    - match: '\B(\?\?)((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)\?\?'
+      scope: markup.italic.phrasemodifiers.textile
+      captures:
+        3: entity.name.type.textile
+    - match: '\B(@)((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)@'
+      scope: markup.italic.phrasemodifiers.textile
+      captures:
+        3: entity.name.type.textile
+    - match: '\B(\^)((\([^)]*\)|\{[^}]*\}|\[[^]]+\]){0,3})(\S.*?\S|\S)\^'
+      scope: markup.italic.phrasemodifiers.textile
+      captures:
+        3: entity.n

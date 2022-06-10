@@ -182,6 +182,17 @@ $less = new lessc;
 $less->compileFile('./15/public/less/module-15.less', './15/public/css/module-15.css');
 ?>
 <link href="./15/public/css/module-15.css" rel="stylesheet" type="text/css" />
+
+<!-- module-16 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./16/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./16/public/less/module-16.less', './16/public/css/module-16.css');
+?>
+<link href="./16/public/css/module-16.css" rel="stylesheet" type="text/css" />
+
 <!-- Module-17 -->
 <?php
 if (!class_exists('lessc')) {
