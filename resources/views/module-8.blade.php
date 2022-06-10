@@ -1,4 +1,4 @@
-<div class="module-8">
+<div class="module-8" style="margin-bottom: 85px;">
     <div class="container mt-4 mb-10">
         <div class="row">
             <div class="col-md-6">

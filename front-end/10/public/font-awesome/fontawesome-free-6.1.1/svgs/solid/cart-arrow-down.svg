@@ -1,0 +1,35 @@
+age>
+				<HoldoutSeed>0</HoldoutSeed>
+				<MaximumInputAttributes>255</MaximumInputAttributes>
+				<MaximumOutputAttributes>255</MaximumOutputAttributes>
+				<MaximumStates>100</MaximumStates>
+				<SampleSize>10000</SampleSize>
+				<HoldoutTolerance>0.001</HoldoutTolerance>
+				<BrentTolerance>0.1</BrentTolerance>
+			</MicrosoftLogisticRegression>
+		</Services>
+	</DataMining>
+	<DSO>
+		<RemoteRepositoryConnectionString/>
+		<RepositoryConnectionString/>
+		<RemoteLocksDirectory/>
+		<LocksDirectory/>
+	</DSO>
+	<LimitSystemFileCacheSizeMB>0</LimitSystemFileCacheSizeMB>
+	<LimitSystemFileCachePeriod>1000</LimitSystemFileCachePeriod>
+	<VertiPaq>
+		<ThreadPool>
+			<CPUs>0</CPUs>
+			<GroupAffinity/>
+		</ThreadPool>
+		<DefaultSegmentRowCount>0</DefaultSegmentRowCount>
+		<ProcessingTimeboxSecPerMRow>-1</ProcessingTimeboxSecPerMRow>
+		<SEQueryRegistry>
+			<Size>512</Size>
+			<MinKCycles>0</MinKCycles>
+			<MinCyclesPerRow>0</MinCyclesPerRow>
+			<MaxArbShpSize>16384</MaxArbShpSize>
+		</SEQueryRegistry>
+		<Log>
+			<ErrorLog>
+				

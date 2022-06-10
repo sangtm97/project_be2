@@ -1,4 +1,4 @@
-<div class="module-6">
+<div class="module-6" style="padding-bottom:500px">
     <div class="container">
         <div class="row">
             <h1 class="page-header__title ">Limited Time Deals</h1><br>
@@ -38,7 +38,8 @@
             <div class="col-md-4">
                 <div class="card-product">
                     <div class="card-product-img">
-                        <img class="card-img-top card-product-front" src="./6/public/images/anh2.jpg" alt="Card image cap">
+                        <img class="card-img-top card-product-front" src="./6/public/images/anh2.jpg"
+                            alt="Card image cap">
                     </div>
                     <div class="product-button">
                         <div class="btn-add-to-cart mb-2">
@@ -70,7 +71,8 @@
             <div class="col-md-4">
                 <div class="card-product">
                     <div class="card-product-img">
-                        <img class="card-img-top card-product-front" src="./6/public/images/anh3.jpg" alt="Card image cap">
+                        <img class="card-img-top card-product-front" src="./6/public/images/anh3.jpg"
+                            alt="Card image cap">
 
                     </div>
                     <div class="product-bage-sales">
