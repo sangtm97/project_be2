@@ -45,13 +45,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./add" class="nav-link">
+                            <a href="/admin/categories/add" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Add New Category</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./list" class="nav-link">
+                            <a href="/admin/categories/list" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List Category</p>
                             </a>
@@ -75,13 +75,13 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./add" class="nav-link">
+                            <a href="/admin/endows/add" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Add New Endow</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="./list" class="nav-link">
+                            <a href="/admin/endows/list" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List Endow</p>
                             </a>
@@ -106,13 +106,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="./add" class="nav-link">
+                        <a href="/admin/products/add" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>Add New Product</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./list" class="nav-link">
+                        <a href="/admin/products/list" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>List Product</p>
                         </a>
