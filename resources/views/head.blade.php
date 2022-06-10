@@ -172,6 +172,7 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('./14/public/less/module-14.less', './14/public/css/module-14.css');
 ?>
+<link href="./14/public/css/module-14.css" rel="stylesheet" type="text/css" />
 <!-- Module-15 -->
 <?php
 if (!class_exists('lessc')) {

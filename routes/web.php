@@ -5,7 +5,7 @@ use App\Http\Controllers\ProductDetailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Maincontroller;
 use App\Http\Controllers\ListProductController;
-use App\Http\Controllers\ProductDetailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,7 +24,7 @@ Route::get('/listproduct', [ListProductController::class, 'index']);
 
 
 Route::get('/wishlist', [WishlistController::class, 'index']);
-Route::get('/productdetail', [ProductDetailController::class, 'index']);
+Route::get('/productDetail', [ProductDetailController::class, 'index']);
 Route::get('/', function () {
     return view('home');
 });
