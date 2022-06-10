@@ -1,4 +1,4 @@
-<div class="module-6">
+<div class="module-6" style="padding-bottom:500px">
     <div class="container">
         <div class="row">
             <h1 class="page-header__title ">Limited Time Deals</h1><br>
