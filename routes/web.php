@@ -36,6 +36,7 @@ Route::middleware(['auth'])->group(function () {
             Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
         });
+        
         #Endow
         Route::prefix('endows')->group(function (){
             Route::get('add', [EndowController::class, 'create']);
