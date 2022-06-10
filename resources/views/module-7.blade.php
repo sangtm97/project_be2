@@ -25,7 +25,8 @@
                                                         d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
                                                         fill="currentColor"></path>
                                                 </svg></span></button>
-                                        <button type="button" class="btn btn-outline-none view"><span
+                                        <button type="button" class="btn btn-outline-none view " data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal{{$recommended->id}}"><span
                                                 class="razzi-svg-icon "><svg aria-hidden="true" role="img"
                                                     focusable="false" xmlns="http://www.w3.org/2000/svg" width="15"
                                                     height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"

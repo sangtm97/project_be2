@@ -2,24 +2,23 @@
 
 
     <!-- modal quick view -->
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quickViewModal">
-        Launch demo modal
-    </button> -->
 
+    @foreach ($products as $product )
     <!-- Modal -->
-    <div class="modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewModalLabel" aria-hidden="true">
+    <div class="modal fade" id="quickViewModal{{$product->id}}" tabindex="-1" aria-labelledby="quickViewModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
 
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
-                                <img src="./17/public/images/fur0001.jpg" class="img-fluid ">
+                                <img src="./upload/{{$product->product_image}}" class="img-fluid ">
                                 <a href="" class="product-more-info">
                                     <span class="product-more-info__text">More Product Info</span>
                                     <span class="svg-icon "><svg aria-hidden="true" role="img" focusable="false"
@@ -69,11 +68,11 @@
                                     <a href="#reviews" class="review-link" style="color: #111;" rel="nofollow">Review
                                         (<span class="count">1</span>)</a>
                                 </div>
-                                <h1 class="product-title">Adagio Nightstand</h1>
+                                <h1 class="product-title">{{$product->product_name}}</h1>
                                 <div class="summary-price-box">
                                     <p class="price"><span class="price_code" data-product-id="6831"><span
                                                 class="Price-amount amount"><bdi><span
-                                                        class="Price-currencySymbol">£</span>&nbsp;36.85
+                                                        class="Price-currencySymbol">£</span>&nbsp;{{$product->product_price}}
                                                     (In stock)</bdi>
 
                                             </span>
@@ -83,9 +82,7 @@
 
                                 </div>
                                 <div class="product-details__short-description">
-                                    <p>Designed for simplicity and made from high quality materials. Its sleek
-                                        geometry
-                                        and material combinations creates a modern look.</p>
+                                    <p>{{$product->product_description}}</p>
                                 </div>
                                 <form class="cart" action="" method="post" enctype="multipart/form-data">
 
@@ -170,4 +167,6 @@
             </div>
         </div>
     </div>
+    @endforeach
+
 </div>
