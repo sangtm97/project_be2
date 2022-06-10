@@ -1,4 +1,4 @@
-<div class="module-2">
+<div class="module-2" style="margin-bottom: -100px">
     <div class="container-fliud">
         <div class="slides">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">

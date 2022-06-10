@@ -5,15 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc5b53b6-5ba7-4036-b659-5a99fe621346" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductDetailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/14.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/css/module-14.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/images/product-10-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/images/product-10-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/images/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/js/14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/less/module-14.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/14/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/Ảnh chụp màn hình 2022-05-28 172301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/css/module-6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/images/product-10-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/images/product-10-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/less/module-6.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/6/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/14.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/css/module-14.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/images/product-10-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/images/product-10-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/images/product1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/js/14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/less/module-14.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/14/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/css/module-6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/images/anh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/images/anh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/images/product-10-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/images/product-10-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/less/module-6.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/6/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/module-14.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/module-6.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/productdetail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/1/public/css/module-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/1/public/css/module-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/10/public/css/module-10.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/10/public/css/module-10.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/2/public/css/module-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/2/public/css/module-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/4/public/css/module-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/4/public/css/module-4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/7/public/css/module-7.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/7/public/css/module-7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/9/public/css/module-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/9/public/css/module-9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/12/public/css/module-12.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/12/public/css/module-12.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/12/public/less/module-12.less" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/12/public/less/module-12.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/module-5.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module-5.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/module-12.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module-12.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/module-2.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module-2.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,5 +238,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

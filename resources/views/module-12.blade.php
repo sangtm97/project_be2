@@ -61,7 +61,9 @@
             <a href="#" class="filtered">
                 Kitchen
                 <span>
-                    <svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <line x1="18" y1="6" x2="6" y2="18">
                         </line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
@@ -71,16 +73,19 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-1-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-1-2.jpg" alt="Card image cap">
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-1-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-1-2.jpg"
+                                alt="Card image cap">
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -88,9 +93,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -98,20 +108,24 @@
                             <h2 class="card-product-name">Highland Bedside Table</h2>
                             <p class="card-product-price">&pound; 102.66</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-2-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-2-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-2-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-2-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -119,9 +133,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -129,13 +148,17 @@
                             <h2 class="card-product-name">Drift Toilet Roll Holder</h2>
                             <p class="card-product-price">&pound; 14.17</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-3-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-3-2.jpg" alt="Card image cap">
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-3-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-3-2.jpg"
+                                alt="Card image cap">
                         </div>
                         <div class="product-bage-sales">
                             <span class="product-bage-sales_price">-88%</span>
@@ -144,7 +167,7 @@
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -152,9 +175,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -165,20 +193,24 @@
                                 <span class="new-price new-price-active">&pound; 14.17</span>
                             </p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-4-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-4-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-4-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-4-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 {{-- <div class="btn-view-title">Quick View</div> --}}
@@ -186,9 +218,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -196,13 +233,17 @@
                             <h2 class="card-product-name">Alice Dining Chair</h2>
                             <p class="card-product-price">&pound; 184.63</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-5-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-5-2.jpg" alt="Card image cap">
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-5-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-5-2.jpg"
+                                alt="Card image cap">
                         </div>
                         <div class="product-bage-sales">
                             <span class="product-bage-sales_price">-27%</span>
@@ -211,7 +252,7 @@
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -219,9 +260,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -229,14 +275,18 @@
                             <h2 class="card-product-name">Jamie Ceiling Light</h2>
                             <p class="card-product-price">&pound; 79.20 – &pound; 144.75</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-6-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-6-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-6-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-6-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-bage-sales">
                             <span class="product-bage-sales_sold-out">sold out</span>
@@ -245,7 +295,7 @@
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -253,9 +303,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -263,14 +318,18 @@
                             <h2 class="card-product-name">Jersey Bar Stool</h2>
                             <p class="card-product-price">&pound; 25.85</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-7-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-7-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-7-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-7-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-bage-sales">
                             <span class="product-bage-sales_title">Hot</span>
@@ -280,7 +339,7 @@
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -288,9 +347,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -301,20 +365,24 @@
                                 <span class="new-price new-price-active">&pound; 73.85</span>
                             </p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-8-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-8-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-8-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-8-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -322,9 +390,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -332,20 +405,24 @@
                             <h2 class="card-product-name">Mina Chair</h2>
                             <p class="card-product-price">&pound; 110.78</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-9-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-9-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-9-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-9-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -353,9 +430,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -363,14 +445,18 @@
                             <h2 class="card-product-name">Rex Chair</h2>
                             <p class="card-product-price">&pound; 75.33</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-10-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-10-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-10-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-10-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-bage-sales">
                             <span class="product-bage-sales_price">-28%</span>
@@ -379,7 +465,7 @@
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -387,9 +473,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -400,20 +491,24 @@
                                 <span class="new-price new-price-active">&pound; 54.54</span>
                             </p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
             <div class="col-md-3">
-                    <div class="card-product">
+                <div class="card-product">
+                    <a href="{{url('/productdetail')}}" style="text-decoration: none;color: #000">
                         <div class="card-product-img">
-                            <img class="card-img-top card-product-front" src="./12/public/images/product-11-1.jpg" alt="Card image cap">
-                            <img class="card-img-top card-product-back" src="./12/public/images/product-11-2.jpg" alt="Card image cap">
-                            
+                            <img class="card-img-top card-product-front" src="./12/public/images/product-11-1.jpg"
+                                alt="Card image cap">
+                            <img class="card-img-top card-product-back" src="./12/public/images/product-11-2.jpg"
+                                alt="Card image cap">
+
                         </div>
                         <div class="product-button">
                             <div class="btn-wishlist mb-2">
                                 <!-- <span class="btn-wishlist-title">Wishlist</span> -->
                                 <span class="btn-wishlist-icon"><i class="fa-regular fa-heart"></i></span>
-                                
+
                             </div>
                             <div class="btn-view">
                                 <!-- <div class="btn-view-title">Quick View</div> -->
@@ -421,9 +516,14 @@
                             </div>
                         </div>
                         <div class="btn-add-to-cart">
-                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z" fill="currentColor"> </path> 
-                                <path d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z" fill="currentColor"> </path> 
+                            <svg class="cart-svg" aria-hidden="true" role="img" focusable="false" width="24" height="24"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.9353 20.0337L20.7493 8.51772C20.7003 8.0402 20.2981 7.67725 19.8181 7.67725H4.21338C3.73464 7.67725 3.33264 8.03898 3.28239 8.51523L2.06458 20.0368C1.96408 21.0424 2.29928 22.0529 2.98399 22.8097C3.66874 23.566 4.63999 24.0001 5.64897 24.0001H18.3827C19.387 24.0001 20.3492 23.5747 21.0214 22.8322C21.7031 22.081 22.0361 21.0623 21.9353 20.0337ZM19.6348 21.5748C19.3115 21.9312 18.8668 22.1275 18.3827 22.1275H5.6493C5.16836 22.1275 4.70303 21.9181 4.37252 21.553C4.042 21.1878 3.88005 20.7031 3.92749 20.2284L5.056 9.55014H18.9732L20.0724 20.2216C20.1223 20.7281 19.9666 21.2087 19.6348 21.5748Z"
+                                    fill="currentColor"> </path>
+                                <path
+                                    d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
+                                    fill="currentColor"> </path>
                             </svg>
                             <span>Add to cart</span>
                         </div>
@@ -431,7 +531,8 @@
                             <h2 class="card-product-name">Walton Accent Chair</h2>
                             <p class="card-product-price">&pound; 125.55</p>
                         </div>
-                    </div>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="row product-post-found">

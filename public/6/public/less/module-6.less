@@ -7,15 +7,15 @@
 body{
     font-family: 'Jost', sans-serif;
 }
-.module-12{
+.module-6{
   
   .container{
     max-width: 1200px !important;
   }
   // ---------------------- page-header-------------------------
   .page-header{
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin: 0;
     font-size: 14px;
     color: #909090;
@@ -34,69 +34,10 @@ body{
   .page-header__title{
     font-size: 32px;
     margin: 0;
-    padding: 42px 0 19px;
+    padding: 42px 20px 30px 20px;
     text-align: center;
     color: #000;
   }
-
-  // ---------------------- catalog-toolbar -------------------------
-  .catalog-toolbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-
-  .catalog-toolbar .catalog-toolbar-left a:first-child{
-    margin-left: 0;
-  }
-
-  .catalog-toolbar .catalog-toolbar-left a{
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 1px 5px;
-    margin: 10px;
-  }
-
-  .catalog-toolbar .catalog-toolbar-left .active,
-  .catalog-toolbar .catalog-toolbar-left a:hover{
-    color: #ff6f61;
-    border-bottom: 1px solid;
-  }
-
-  .catalog-toolbar .catalog-toolbar-right{
-    display: flex;
-    align-items: center;
-  }
-
-  .catalog-toolbar .catalog-toolbar-right .catalog-filter .catalog-filter-icon{
-    margin-right: 4px;
-  }
-
-  .catalog-toolbar .catalog-toolbar-right .catalog-filter .catalog-filter-title{
-    font-weight: 500;
-  }
-
-  .catalog-toolbar .catalog-toolbar-right .catalog-sort .catalog-sort-ordering{
-    position: relative;
-    margin-left: 24px;
-    padding: 10px 0;
-    cursor: pointer;
-  }
-
-  .catalog-toolbar .catalog-toolbar-right .catalog-sort .catalog-sort-ordering .orderby{
-    border: 1px solid #ccc;
-    padding: 12px 25px;
-    appearance: none;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNSIgdmlld0JveD0iMCAwIDEwIDUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNNC41MDQ5NSA0LjgyMDExTDAuMjA1MjQxIDEuMDQ4NTZDLTAuMDY4NDEzNyAwLjgwODY0NiAtMC4wNjg0MTM3IDAuNDE5NjYzIDAuMjA1MjQxIDAuMTc5ODY0QzAuNDc4NjUyIC0wLjA1OTk1NDcgMC45MjIwOTggLTAuMDU5OTU0NyAxLjE5NTQ5IDAuMTc5ODY0TDUuMDAwMDcgMy41MTcxTDguODA0NTIgMC4xNzk5NjFDOS4wNzgwNSAtMC4wNTk4NTc3IDkuNTIxNDUgLTAuMDU5ODU3NyA5Ljc5NDg2IDAuMTc5OTYxQzEwLjA2ODQgMC40MTk3OCAxMC4wNjg0IDAuODA4NzQzIDkuNzk0ODYgMS4wNDg2Nkw1LjQ5NTA4IDQuODIwMkM1LjM1ODMxIDQuOTQwMTEgNS4xNzkyNSA1IDUuMDAwMDkgNUM0LjgyMDg1IDUgNC42NDE2NSA0Ljk0IDQuNTA0OTUgNC44MjAxMVoiIGZpbGw9IiM3Njc2NzYiLz4NCjwvc3ZnPg0K);
-    background-repeat: no-repeat;
-    background-position: calc(100% - 20px) 50%;
-    transition: .1s;
-    padding-right: 40px
-  }
-
-  // ---------------------- card-product -------------------------
   .product-filter-box{
     margin: -7px -7px 30px;
     clear: both;
@@ -119,24 +60,19 @@ body{
     line-height: 1;
     padding-top: 4px;
   }
-
   .product-filter-box a span svg{
     display: inline-block;
     height: 13px;
     width: 13px;
     vertical-align: -3px;
   }
-
-  // ---------------------- card-product -------------------------
   .card-product{
     position: relative;
   }
-
   .card-product .card-product-img{
     position: relative;
 
   }
-
   .card-product .card-product-img{
     -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -203,7 +139,8 @@ body{
   }
 
   .card-product .product-button .btn-wishlist .btn-wishlist-icon,
-  .card-product .product-button .btn-view .btn-view-icon{
+  .card-product .product-button .btn-view .btn-view-icon,
+  .card-product .product-button .btn-add-to-cart .btn-view-icon{
     display: flex;
     align-content: center;
     align-items: center;
@@ -231,6 +168,15 @@ body{
     border-radius: 5px;
     display: none;
   }
+  .card-product .product-button .btn-add-to-cart .btn-add-to-cart-title{
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 12px;
+    background: #000;
+    border-radius: 5px;
+    display: none;
+  }
+
   .card-product .product-button .btn-wishlist .btn-wishlist-title::after{
     content: '';
     position: absolute;
@@ -245,7 +191,15 @@ body{
     display: flex;
     align-items: center;
   } 
-
+  .card-product .product-button .btn-add-to-cart .btn-add-to-cart-title::after{
+    content: '';
+    position: absolute;
+    top: 38%;
+    right: 32%;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-left: 5px solid #000;
+  }
   .card-product .product-button .btn-view .btn-view-title::after{
     content: '';
     position: absolute;
@@ -256,41 +210,19 @@ body{
     border-left: 5px solid #000;
   }
 
-  .card-product .btn-add-to-cart{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 40px;
-    color: #fff;
-    background: #000;
-    bottom: 16.5%;
-    display: none;
-    transition: all linear 3s;
-  }
-
-  .card-product .btn-add-to-cart .cart-svg{
-    height: 15px;
-    width: 15px;
-    margin-right: 8px;
-  }
-
-  .card-product .btn-add-to-cart span{
-    font-size: 15;
-    font-weight: 500;
-    text-transform: capitalize;
-  }
-
   .card-product .card-content{
+    position: absolute;
     text-align: center;
-    padding: 20px 15px 0 15px;
+    padding: 385px 25px 0 75px;
+  }
+  .content{
+    background-color: #fff;
   }
 
   .card-product .card-content .card-product-name{
-    font-size: 16px;
+    font-size: 24px;
+    padding: 20px 20px 18px;
     margin: 0 0 3px;
-    color: transparent;
   }
 
   .card-product .card-content .card-product-price{
@@ -322,45 +254,10 @@ body{
     cursor: pointer;
   }
 
-  .card-product .btn-wishlist{
-  }
-
   .card-product:hover .btn-wishlist-icon:hover,
   .card-product:hover .btn-view-icon:hover{
     color: #fff;
     background: #ff6f61;
     cursor: pointer;
-  }
-
-  .card-product .card-content{
-    position: 0;
-    bottom: 0;
-  }
-
-  .card-product:hover .card-product-front{
-    opacity: 0;
-  }
-
-  // ---------------------- product-post-found ------------------------
-  .product-post-found{
-    position: relative;
-  }
-
-  .product-post-found-inner{
-    display: inline-block;
-    padding: 10px 50px;
-    color: #767676;
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .product-post-found .count-bar{
-    position: absolute;
-    background-color: #000;
-    height: 2px;
-    width: 20%;
-    bottom: -2px;
-    left: 50%;
-    transform: translate(-50%, 0);
   }
 }
