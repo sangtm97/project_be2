@@ -57,7 +57,7 @@ class ProductController extends Controller
             $file->move(public_path('upload'),$file_name);
         }
         $request->merge(['product_image' => $file_name]);
-        $result = $this->productService->create($request);
+        
         $name = 'test name for email';
         $products = Product::create([
             'product_name' => (string)$request->input('product_name'),
@@ -69,6 +69,7 @@ class ProductController extends Controller
         Mail::send('emails.test',compact('products','name'),function ($email){
             $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
         });
+        $result = $this->productService->create($request);
         return redirect()->back();
     }
 
