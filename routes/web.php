@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Maincontroller;
 use App\Http\Controllers\ListProductController;
+use App\Http\Controllers\ProductDetailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,5 @@ use App\Http\Controllers\ListProductController;
 Route::get('/', [Maincontroller::class, 'index']);
 
 Route::get('/listproduct', [ListProductController::class, 'index']);
+
+Route::get('/productdetail', [ProductDetailController::class, 'index']);
