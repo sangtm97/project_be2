@@ -8,6 +8,7 @@ use App\Http\Controllers\ListProductController;
 use \App\Http\Controllers\Admin\Users\LoginController;
 use \App\Http\Controllers\Admin\MainControllers;
 use \App\Http\Controllers\Admin\CategoryController;
+use \App\Http\Middleware\XSS;
 
 
 /*
@@ -35,6 +36,7 @@ Route::get('/', function () {
 Route::get('admin/users/login',[LoginController::class,'index'])->name('login');
 Route::post('admin/users/login/store',[LoginController::class,'store']);
 
+Route::group(['middleware' => ['XSS']], function () {
 Route::middleware(['auth'])->group(function () {
     Route::prefix('admin')->group(function (){
         Route::get('/',[MainControllers::class,'index'])->name('admin');
@@ -53,6 +55,8 @@ Route::middleware(['auth'])->group(function () {
             Route::get('search', [CategoryController::class, 'search'])->name('search');
         });
     });
+  });
+
 });
 
 
