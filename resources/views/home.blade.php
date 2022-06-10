@@ -12,6 +12,7 @@
     @include('module-3')
 	@include('module-4')
 	@include('module-5')
+	@include('module-6')
 	@include('module-7')
     @include('module-8')
     @include('module-9')
