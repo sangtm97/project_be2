@@ -15416,7 +15416,6 @@
       <change beforePath="$PROJECT_DIR$/public/7/public/css/module-7.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/7/public/css/module-7.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/8/public/css/module-8.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/8/public/css/module-8.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/9/public/css/module-9.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/9/public/css/module-9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
@@ -15563,6 +15562,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -15586,7 +15589,7 @@
       <workItem from="1654675815663" duration="4058000" />
       <workItem from="1654765092893" duration="11000" />
       <workItem from="1654785840230" duration="620000" />
-      <workItem from="1654849561521" duration="110000" />
+      <workItem from="1654849561521" duration="706000" />
     </task>
     <servers />
   </component>
