@@ -52,7 +52,7 @@ class ProtypeController extends Controller
             compact('protypes')
         );
     }
-    // delete protype
+    //delete protypes
     public function destroy($id){
         $protypes = Protype::findOrFail($id);
         $protypes->delete();
