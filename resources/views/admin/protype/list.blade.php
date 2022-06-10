@@ -1,5 +1,5 @@
 @extends('admin.main')
-
+<!-- delete protype -->
 @section('content')
     <table class="table">
         <thead>
@@ -18,6 +18,7 @@
                     <a class="btn btn-primary btn-sm" href="{{route('edit', $protype->id)}}">
                         Edit
                     </a>
+                    <!-- btn form delete -->
                     <form action="{{route('destroy', $protype->id)}}" method="POST">
                         @method('DELETE')
                         @csrf
