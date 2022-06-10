@@ -18,6 +18,7 @@
 <link href="./8/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./8/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
+
 <link href="./10/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./10/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -32,6 +33,10 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,170;1,400&display=swap"
     rel="stylesheet">
+
+<link href="./11/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="./11/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
 
 <link href="./12/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./12/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -104,6 +109,7 @@ $less->compileFile('./8/public/less/module-8.less', './8/public/css/module-8.css
 <link href="./8/public/css/module-8.css" rel="stylesheet" type="text/css" />
 
 
+
 <!-- module-10 -->
 <?php
 if (!class_exists('lessc')) {
@@ -155,6 +161,17 @@ $less = new lessc;
 $less->compileFile('./7/public/less/module-7.less', './7/public/css/module-7.css');
 ?>
 <link href="./7/public/css/module-7.css" rel="stylesheet" type="text/css" />
+
+<!-- Module-11 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./11/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./11/public/less/module-11.less', './11/public/css/module-11.css');
+?>
+<link href="./11/public/css/module-11.css" rel="stylesheet" type="text/css" />
+
 
 <!-- Module-12 -->
 <?php

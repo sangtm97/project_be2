@@ -1,0 +1,12 @@
+sorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+					<assemblyIdentity name="Microsoft-Windows-IE-HTMLApplication" version="8.0.7601.23301" processorArchitecture="wow64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="699632df79691b48afaa7dd7a09d6eaa" version="8.0.7601.23301" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
+		</update>
+		<update name="3124275-167_neutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="serviceLevel">
+					<assemblyIdentity name="Microsoft-Windows-IE-HTMLApplication" version="8.0.7601.19104" processorArchitecture="amd64" language="neut
