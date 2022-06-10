@@ -11,7 +11,7 @@ use App\Models\Product;
 use App\Models\Endow;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductService;
-
+use Mail;
 class ProductController extends Controller
 {
     protected $productService;
@@ -58,6 +58,10 @@ class ProductController extends Controller
         }
         $request->merge(['product_image' => $file_name]);
         $result = $this->productService->create($request);
+        $name = 'test name for email';
+        Mail::send('emails.test',compact('name'),function ($email){
+            $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
+        });
         return redirect()->back();
     }
 
@@ -104,5 +108,13 @@ class ProductController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function test_mail()
+    {
+        $name = 'test name for email';
+        Mail::send('emails.test',compact('name'),function ($email){
+            $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
+        });
     }
 }

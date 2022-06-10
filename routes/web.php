@@ -50,6 +50,7 @@ Route::middleware(['auth'])->group(function () {
         Route::prefix('products')->group(function (){
             Route::get('add', [ProductController::class, 'create']);
             Route::post('add', [ProductController::class, 'store']);
+            Route::get('test-email', [ProductController::class, 'test_mail']);
             Route::get('list', [ProductController::class, 'list'])->name('list');
             Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
