@@ -28,7 +28,7 @@ class ProtypeController extends Controller
         $result = $this->protypeService->create($request);
         return redirect()->back();
     }
-    // edit protype
+    // edit protypes
     public function edit($id){
         $protypes = Protype::findOrFail($id);
         return view('admin.protype.edit',[
@@ -36,7 +36,7 @@ class ProtypeController extends Controller
             compact('protypes')
         );
     }
-    // update protype
+    // update protypes
     public function update(UpdateFormRequest $request, $id){
         $protypes = Protype::findOrFail($id);
         $protypes->protype_name = $request->input('protype_name');
@@ -44,7 +44,7 @@ class ProtypeController extends Controller
         return redirect()->route('list')->with(['message' => 'Success']);
     }
 
-
+    // hien thi danh sach protype
     public function list(){
         $protypes = Protype::latest('id')->paginate(50);
         return view('admin.protype.list',[
