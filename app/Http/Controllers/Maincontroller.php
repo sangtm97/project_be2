@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
+use App\Models\Product;
+use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
@@ -14,6 +16,14 @@ class MainController extends Controller
         $products = DB::table('products')->get();
         return view('home', compact('bestsellers', 'recommendeds', 'products'));
         //return dd($bestsellers);
+    }
+
+
+    public function search(Request $request){
+        $search = $request->get('search');
+        $products = Product::where('product_name', 'like', '%' .$search. '%')->paginate(50);
+        return view('searchproduct',[
+            'title'=>'Result Search Product'], compact('products'));
     }
 
 }

@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @include('head')
+</head>
+<body>
 <div class="module-1">
         <div class="container-fluid">
             <div class="container">
@@ -96,63 +103,7 @@
             </div>
         </div>
         <hr>
-       <div class="container pb-5 ps-0">
-            <div class="col-md-12 list-danhmuc">
-                    <div class="danhmuc2">
-                        <a href="#">Furniture</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                     <div class="danhmuc2">
-                        <a href="#">Outdoor</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Table & Bar</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Kitchen</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Decor</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Rugs</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Lighting</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Bedding</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Furniture</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Holidays & Gifts</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div>
-                    <div class="danhmuc2">
-                        <a href="#">Sale</a>
-                        <div class="gachchan2">
-                        </div>
-                    </div> 
-            </div>
-       </div>
    </div>
+    @include('module-search')
+    @include('module-13')
+</body>

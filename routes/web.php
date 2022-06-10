@@ -30,6 +30,8 @@ Route::get('/', [Maincontroller::class, 'index']);
 
 Route::get('/listproduct', [ListProductController::class, 'index']);
 
+Route::get('/searchproduct', [Maincontroller::class, 'search'])->name('searchproduct');
+
 Route::get('/wishlist', [WishlistController::class, 'index']);
 Route::get('/productdetail', [ProductDetailController::class, 'index']);
 
