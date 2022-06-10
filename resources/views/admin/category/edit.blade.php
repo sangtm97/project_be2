@@ -1,6 +1,7 @@
 @extends('admin.main')
 
 @section('content')
+{{-- form update category --}}
     <form action="{{route('update', $categories->id)}}" method="POST">
         @method('PUT')
         <div class="card-body">

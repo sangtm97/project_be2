@@ -15,6 +15,7 @@
                 <td>{{$category->id}}</td>
                 <td>{{$category->category_name}}</td>
                 <td style="display: flex;gap: 6px">
+                    {{--btn edit category --}}
                     <a class="btn btn-primary btn-sm" href="{{route('edit', $category->id)}}">
                         Edit
                     </a>

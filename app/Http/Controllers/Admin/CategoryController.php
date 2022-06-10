@@ -29,6 +29,7 @@ class CategoryController extends Controller
         return redirect()->back();
     }
 
+    //edit category
     public function edit($id){
         $categories = Category::findOrFail($id);
         return view('admin.category.edit',[
@@ -37,11 +38,12 @@ class CategoryController extends Controller
         );
     }
 
+    //update category
     public function update(UpdateFormRequest $request, $id){
         $categories = Category::findOrFail($id);
         $categories->category_name = $request->input('category_name');
         $categories->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('list')->with(['message' => 'Update categoty Success']);
     }
 
 
