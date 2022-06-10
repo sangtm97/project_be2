@@ -25,7 +25,7 @@ Route::get('/', [Maincontroller::class, 'index']);
 Route::get('/listproduct', [ListProductController::class, 'index']);
 
 Route::get('/wishlist', [WishlistController::class, 'index']);
-Route::get('/productDetail/{id}', [ProductDetailController::class, 'show']);
+Route::get('/productDetail', [ProductDetailController::class, 'index']);
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 Route::post('admin/users/login/store', [LoginController::class, 'store']);
