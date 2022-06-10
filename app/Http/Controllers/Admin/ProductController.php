@@ -57,19 +57,11 @@ class ProductController extends Controller
             $file->move(public_path('upload'),$file_name);
         }
         $request->merge(['product_image' => $file_name]);
-        
+        $result = $this->productService->create($request);
         $name = 'test name for email';
-        $products = Product::create([
-            'product_name' => (string)$request->input('product_name'),
-            'product_price' => (integer)$request->input('product_price'),
-            'product_description' => (string)$request->input('product_description'),
-            'endow_id' => (integer)$request->input('endow_id'),
-            'product_image' => (string)$request->input('product_image'),
-        ]);
-        Mail::send('emails.test',compact('products','name'),function ($email){
+        Mail::send('emails.test',compact('name'),function ($email){
             $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
         });
-        $result = $this->productService->create($request);
         return redirect()->back();
     }
 
