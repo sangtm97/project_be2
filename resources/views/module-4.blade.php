@@ -4,7 +4,7 @@
         <h1 class="font-weight-light">Best Seller
         </h1>
         <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="recipeCarousel" class="carousel module4 carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="col-md-3">
@@ -24,10 +24,11 @@
                                                         d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
                                                         fill="currentColor"></path>
                                                 </svg></span></button>
-                                        <button type="button" class="btn btn-outline-none view"><span
-                                                class="razzi-svg-icon "><svg aria-hidden="true" role="img"
-                                                    focusable="false" xmlns="http://www.w3.org/2000/svg" width="15"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        <button type="button" class="btn btn-outline-none view" data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"><span class="razzi-svg-icon "><svg
+                                                    aria-hidden="true" role="img" focusable="false"
+                                                    xmlns="http://www.w3.org/2000/svg" width="15" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                                                     <circle cx="12" cy="12" r="3"></circle>
@@ -72,10 +73,11 @@
                                                         d="M12.1717 0C9.21181 0 6.80365 2.40811 6.80365 5.36803V8.6138H8.67622V5.36803C8.67622 3.44053 10.2442 1.87256 12.1717 1.87256C14.0992 1.87256 15.6674 3.44053 15.6674 5.36803V8.6138H17.5397V5.36803C17.5397 2.40811 15.1316 0 12.1717 0Z"
                                                         fill="currentColor"></path>
                                                 </svg></span></button>
-                                        <button type="button" class="btn btn-outline-none view"><span
-                                                class="razzi-svg-icon "><svg aria-hidden="true" role="img"
-                                                    focusable="false" xmlns="http://www.w3.org/2000/svg" width="15"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        <button type="button" class="btn btn-outline-none view " data-bs-toggle="modal"
+                                            data-bs-target="#quickViewModal"><span class="razzi-svg-icon "><svg
+                                                    aria-hidden="true" role="img" focusable="false"
+                                                    xmlns="http://www.w3.org/2000/svg" width="15" height="24"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                                                     <circle cx="12" cy="12" r="3"></circle>
@@ -307,7 +309,7 @@
 
 </div>
 <script>
-let items = document.querySelectorAll('.carousel .carousel-item')
+let items = document.querySelectorAll('.module4 .carousel-item')
 
 items.forEach((el) => {
     const minPerSlide = 4

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB3124275" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=3124275" creationTimeStamp="2015-12-11T13:46:57Z" lastUpdateTimeStamp="2015-12-11T13:46:57Z">
+	<assemblyIdentity name="Package_35_for_KB3124275" version="6.1.1.0" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB3124275" releaseType="Security Update" restart="possible" psfName="Windows6.1-KB3124275-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="EQ" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-Package" language="neutral" version="8.0.7601.17514" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" buildType="release"/>
+			<assemblyIdentity name="Microsoft-Windows-ServerCore-Package" language="neutral" version="6.1.760

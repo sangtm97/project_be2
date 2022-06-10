@@ -1,0 +1,21 @@
+.textile
+            3: entity.name.type.textile
+            4: entity.name.tag.footnote.textile
+          pop: true
+        - include: inline
+        - include: scope:text.html.basic
+    - match: '(^table([<>=()]+)?)(\([^)]*\)|\{[^}]*\})*(\.)'
+      captures:
+        1: entity.name.tag.footnote.textile
+        3: entity.name.type.textile
+        4: entity.name.tag.footnote.textile
+      push:
+        - meta_scope: markup.other.table.textile
+        - match: ^$
+          captures:
+            1: entity.name.tag.footnote.textile
+            3: entity.name.type.textile
+            4: entity.name.tag.footnote.textile
+          pop: true
+        - include: inline
+        - include: scope:text.html.basic

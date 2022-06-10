@@ -1,0 +1,64 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-5 .container {
+  max-width: 1200px !important;
+}
+.module-5 .page-header__title {
+  font-size: 32px;
+  margin: 0;
+  padding: 42px 0 19px;
+  text-align: center;
+  color: #000;
+}
+.module-5 .row .card-product-img {
+  width: 250px;
+}
+.module-5 .category-content a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 35px;
+}
+.module-5 .image {
+  position: relative;
+  margin-bottom: 20px;
+}
+.module-5 .image h3 {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+.module-5 .card-product {
+  display: flex;
+  gap: 50px;
+  background-color: #fffaed;
+}
+.module-5 .card-product2 {
+  display: flex;
+  gap: 50px;
+  background-color: #f1feff;
+}
+.module-5 .card-product3 {
+  display: flex;
+  gap: 50px;
+  background-color: #f4ffee;
+}
+.module-5 .card-product4 {
+  display: flex;
+  gap: 50px;
+  background-color: #fff8fb;
+}
+.module-5 .muiten {
+  display: none;
+}
+.module-5 .category-content:hover .muiten {
+  display: inline-block;
+}

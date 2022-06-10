@@ -1,0 +1,32 @@
+@import "../vars.less";
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-3 .container {
+  max-width: 1200px !important;
+}
+.module-3 .banner {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.module-3 .banner .banner-content {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  padding: 37px 40px 40px;
+}
+.module-3 .banner img {
+  display: block;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+}
+.module-3 .banner .banner-content .banner-title {
+  font-size: 28px;
+  line-height: 1.35714;
+  margin: 0 0 16px;
+}
+.module-3 .banner:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}

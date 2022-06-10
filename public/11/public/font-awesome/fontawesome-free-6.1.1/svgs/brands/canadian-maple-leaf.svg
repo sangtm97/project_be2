@@ -1,0 +1,9 @@
+ C:\Windows\SoftwareDistribution\WuRedir\9482F4B4-E343-43B6-B170-9A65BC822C77\v6-win7sp1-wuredir.cab with dwProvFlags 0x00000080:
+2022-01-25	15:30:13:362	 324	eb0	Misc	 Microsoft signed: NA
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: Send failed with hr = 80072ee7.
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: SendRequest failed with hr = 80072ee7. Proxy List used: <(null)> Bypass List used : <(null)> Auth Schemes used : <>
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: WinHttp: SendRequestUsingProxy failed for <http://ds.download.windowsupdate.com/v11/2/windowsupdate/redir/v6-win7sp1-wuredir.cab>. error 0x8024402c
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: WinHttp: SendRequestToServerForFileInformation MakeRequest failed. error 0x8024402c
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: WinHttp: SendRequestToServerForFileInformation failed with 0x8024402c
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: WinHttp: ShouldFileBeDownloaded failed with 0x8024402c
+2022-01-25	15:30:13:368	 324	eb0	Misc	WARNING: DownloadFileInternal failed for http://ds.dow

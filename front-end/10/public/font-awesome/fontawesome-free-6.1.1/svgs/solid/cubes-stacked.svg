@@ -1,0 +1,45 @@
+
+    os.clock();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^ meta.property support.function.builtin
+
+    os.date();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^ meta.property support.function.builtin
+
+    os.difftime();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^^^ meta.property support.function.builtin
+
+    os.execute();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^^ meta.property support.function.builtin
+
+    os.exit();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^ meta.property support.function.builtin
+
+    os.getenv();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^ meta.property support.function.builtin
+
+    os.remove();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^ meta.property support.function.builtin
+
+    os.rename();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^ meta.property support.function.builtin
+
+    os.setlocale();
+--  ^^ support.constant.builtin
+--    ^ punctuation.accessor
+--     ^^^^^^^^^ meta.property

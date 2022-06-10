@@ -1,0 +1,10 @@
+eutral_GDR">
+			<applicable disposition="staged">
+				<updateComponent elevate="revision">
+					<assemblyIdentity name="Microsoft-Windows-IE-Feeds-Platform" version="8.0.7601.19104" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+					<assemblyIdentity name="Microsoft-Windows-IE-Feeds-Platform" version="8.0.7601.19104" processorArchitecture="wow64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+				</updateComponent>
+			</applicable>
+			<component>
+				<assemblyIdentity name="bf8f3df188493b37302ed8ac08620a1f" version="8.0.7601.19104" processorArchitecture="amd64" language="neutral" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS"/>
+			</component>
