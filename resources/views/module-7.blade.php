@@ -1,10 +1,9 @@
 <div class="module-7">
-
     <div class="container text-center my-3">
         <h1 class="font-weight-light">Recommended Products
         </h1>
         <div class="row mx-auto my-auto justify-content-center">
-            <div id="recipeCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div id="module7" class="carousel module7 carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="col-md-3">
@@ -293,21 +292,20 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev
-                            bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                            bg-transparent w-aut" href="#module7" role="button" data-bs-slide="prev">
 
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 </a>
-                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                <a class="carousel-control-next bg-transparent w-aut" href="#module7" role="button"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
             </div>
         </div>
     </div>
-
 </div>
 <script>
-let items = document.querySelectorAll('.carousel .carousel-item')
+let items = document.querySelectorAll('.module7 .carousel-item')
 
 items.forEach((el) => {
     const minPerSlide = 4
