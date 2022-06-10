@@ -15,7 +15,7 @@
                 <td>{{$endow->id}}</td>
                 <td>{{$endow->endow_name}}</td>
                 <td style="display: flex;gap: 6px">
-                    <a class="btn btn-primary btn-sm" href="{{route('edit', $endow->id)}}">
+                    <a class="btn btn-primary btn-sm" href="{{route('editendows', $endow->id)}}">
                         Edit
                     </a>
                     <form action="{{route('destroy', $endow->id)}}" method="POST">

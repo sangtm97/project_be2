@@ -16,7 +16,7 @@
                 <td>{{$protype->protype_name}}</td>
                 <td style="display: flex;gap: 6px">
                 <!-- btn edit -->
-                    <a class="btn btn-primary btn-sm" href="{{route('edit', $protype->id)}}">
+                    <a class="btn btn-primary btn-sm" href="{{route('editprotypes', $protype->id)}}">
                         Edit
                     </a>
                     <!-- btn form delete -->

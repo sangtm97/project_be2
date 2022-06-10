@@ -48,7 +48,7 @@ Route::group(['middleware' => ['XSS']], function () {
                 Route::post('add', [CategoryController::class, 'store']);
                 Route::get('list', [CategoryController::class, 'list'])->name('list');
                 //Update category
-                Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
+                Route::get('{id}/editcategories', [CategoryController::class, 'edit'])->name('editcategories');
                 Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
                 // delete
                 Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
@@ -60,7 +60,7 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::get('add', [ProtypeController::class, 'create']);
             Route::post('add', [ProtypeController::class, 'store']);
             Route::get('list', [ProtypeController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
+            Route::get('{id}/editprotypes', [ProtypeController::class, 'edit'])->name('editprotypes');
             Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
         });
@@ -70,7 +70,7 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::get('add', [EndowController::class, 'create']);
             Route::post('add', [EndowController::class, 'store']);
             Route::get('list', [EndowController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [EndowController::class, 'edit'])->name('edit');
+            Route::get('{id}/editendows', [EndowController::class, 'edit'])->name('editendows');
             Route::put('{id}/update', [EndowController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [EndowController::class, 'destroy'])->name('destroy');
         });
@@ -80,7 +80,7 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::get('add', [ProductController::class, 'create']);
             Route::post('add', [ProductController::class, 'store']);
             Route::get('list', [ProductController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
+            Route::get('{id}/editproducts', [ProductController::class, 'edit'])->name('editproducts');
             Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
             Route::get('search', [ProductController::class, 'search'])->name('search');

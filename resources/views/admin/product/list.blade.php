@@ -22,7 +22,7 @@
                 <td>{{$product->product_image}}</td>
                 <td>{{$product->endow_id}}</td>
                 <td style="display: flex;gap: 6px">
-                    <a class="btn btn-primary btn-sm" href="{{route('edit', $product->id)}}">
+                    <a class="btn btn-primary btn-sm" href="{{route('editproducts', $product->id)}}">
                         Edit
                     </a>
                     <form action="{{route('destroy', $product->id)}}" method="POST">
