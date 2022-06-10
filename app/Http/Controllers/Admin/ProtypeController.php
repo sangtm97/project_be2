@@ -28,7 +28,7 @@ class ProtypeController extends Controller
         $result = $this->protypeService->create($request);
         return redirect()->back();
     }
-
+    // edit protypes
     public function edit($id){
         $protypes = Protype::findOrFail($id);
         return view('admin.protype.edit',[
@@ -36,7 +36,7 @@ class ProtypeController extends Controller
             compact('protypes')
         );
     }
-
+    // update protypes
     public function update(UpdateFormRequest $request, $id){
         $protypes = Protype::findOrFail($id);
         $protypes->protype_name = $request->input('protype_name');

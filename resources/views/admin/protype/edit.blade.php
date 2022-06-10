@@ -1,5 +1,5 @@
 @extends('admin.main')
-
+<!-- form edit protypes -->
 @section('content')
     <form action="{{route('update', $protypes->id)}}" method="POST">
         @method('PUT')

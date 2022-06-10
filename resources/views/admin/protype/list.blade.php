@@ -15,6 +15,7 @@
                 <td>{{$protype->id}}</td>
                 <td>{{$protype->protype_name}}</td>
                 <td style="display: flex;gap: 6px">
+                <!-- btn edit -->
                     <a class="btn btn-primary btn-sm" href="{{route('edit', $protype->id)}}">
                         Edit
                     </a>
