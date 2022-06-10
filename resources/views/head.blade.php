@@ -3,6 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
+
 <link href="./1/public/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="./1/public/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -61,6 +62,7 @@
 <!-- module-1 -->
 <?php
 if (!class_exists('lessc')) {
+
     include './1/public/libs/lessc.inc.php';
 }
 $less = new lessc;
@@ -84,10 +86,8 @@ $less->compileFile('./2/public/less/module-2.less', './2/public/css/module-2.css
 <?php
 if (!class_exists('lessc')) {
     include './3/public/libs/lessc.inc.php';
-}
-$less = new lessc;
-$less->compileFile('./3/public/less/module-3.less', './3/public/css/module-3.css');
 ?>
+
 <link href="./3/public/css/module-3.css" rel="stylesheet" type="text/css" />
 
 <!-- Module-5 -->
@@ -196,3 +196,12 @@ $less = new lessc;
 $less->compileFile('./17/public/less/module-17.less', './17/public/css/module-17.css');
 ?>
 <link href="./17/public/css/module-17.css" rel="stylesheet" type="text/css" />
+
+<?php
+if (!class_exists('lessc')) {
+    include './18/public/libs/lessc.inc.php';
+}
+$less = new lessc;
+$less->compileFile('./18/public/less/module-18.less', './18/public/css/module-18.css');
+?>
+<link href="./18/public/css/module-18.css" rel="stylesheet" type="text/css" />
