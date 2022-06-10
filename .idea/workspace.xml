@@ -14,8 +14,9 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ListProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Maincontroller.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductDetailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/1/1-screenshot.PNG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/1/1.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/1/public/css/bootstrap.min.css" afterDir="false" />
@@ -6469,6 +6470,15 @@
       <change afterPath="$PROJECT_DIR$/front-end/17/public/less/module-17.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/17/public/libs/lessc.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/17/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/18-content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/18-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/18.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/css/module-18.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/images/fur0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/less/module-18.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/18/public/libs/lessc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/2/2.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/2/public/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/2/public/css/font-awesome.min.css" afterDir="false" />
@@ -6493,15 +6503,6 @@
       <change afterPath="$PROJECT_DIR$/front-end/3/public/less/module-3.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/3/public/libs/lessc.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/3/public/libs/lessc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/4-content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/4-screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/css/module-4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/images/fur0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/less/module-4.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/libs/lessc.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/4/public/libs/lessc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/5/5-screenshot.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/5/5.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front-end/5/public/css/bootstrap.min.css" afterDir="false" />
@@ -15099,6 +15100,12 @@
       <change afterPath="$PROJECT_DIR$/public/17/public/less/module-17.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/17/public/libs/lessc.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/17/public/libs/lessc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/css/module-18.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/images/fur0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/less/module-18.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/libs/lessc.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/18/public/libs/lessc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/2/public/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/2/public/css/font-awesome.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/2/public/css/module-2.css" afterDir="false" />
@@ -15118,12 +15125,6 @@
       <change afterPath="$PROJECT_DIR$/public/3/public/less/module-3.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/3/public/libs/lessc.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/3/public/libs/lessc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/css/module-4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/images/fur0001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/less/module-4.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/libs/lessc.inc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/4/public/libs/lessc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/5/public/css/bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/5/public/css/font-awesome.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/5/public/css/module-5.css" afterDir="false" />
@@ -17267,7 +17268,6 @@
       <change afterPath="$PROJECT_DIR$/public/9/public/less/module-9.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/9/public/libs/lessc.inc.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/9/public/libs/lessc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/listproduct.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-1.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-10.blade.php" afterDir="false" />
@@ -17277,18 +17277,21 @@
       <change afterPath="$PROJECT_DIR$/resources/views/module-14.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-15.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-17.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/module-18.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-2.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-3.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/module-4.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-5.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-6.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-7.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-8.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/module-9.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/productdetail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/wishlist.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/wishlist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wishlist.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/module-4.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/module-4.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17305,6 +17308,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -17427,6 +17433,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -17464,5 +17473,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
