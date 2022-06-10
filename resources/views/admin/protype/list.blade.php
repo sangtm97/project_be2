@@ -19,7 +19,7 @@
                         Edit
                     </a>
                     <!-- btn form delete -->
-                    <form action="{{route('destroy', $protype->id)}}" method="POST">
+                    <form action="{{route('destroyprotype', $protype->id)}}" method="POST">
                         @method('DELETE')
                         @csrf
                         <button type="submit" class="btn btn-danger">Delete</button>

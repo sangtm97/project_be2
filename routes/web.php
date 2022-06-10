@@ -21,7 +21,7 @@ Route::middleware(['auth'])->group(function () {
             Route::get('list', [CategoryController::class, 'list'])->name('list');
             Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
+            Route::delete('{id}/destroycategory', [CategoryController::class, 'destroy'])->name('destroycategory');
         });
 
          //Protype
@@ -31,7 +31,7 @@ Route::middleware(['auth'])->group(function () {
             Route::get('list', [ProtypeController::class, 'list'])->name('list');
             Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
+            Route::delete('{id}/destroyprotype', [ProtypeController::class, 'destroy'])->name('destroyprotype');
         });
     });
 });
