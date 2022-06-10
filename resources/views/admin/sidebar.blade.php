@@ -76,13 +76,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./add" class="nav-link">
+                <a href="/admin/protypes/add" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add New Protype</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./list" class="nav-link">
+                <a href="/admin/protypes/list" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>List Protype</p>
                 </a>
