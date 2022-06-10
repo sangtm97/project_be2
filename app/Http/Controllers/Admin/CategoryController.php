@@ -61,4 +61,14 @@ class CategoryController extends Controller
         $categories->delete();
         return redirect()->route('list')->with(['message' => 'Delete category success']);
     }
+
+    public function search(Request $request){
+        // $search = $request->get('search');
+        // $categories = DB::table('categories')->where('category_name', 'like', '%' .$search. '%');
+        // return view('admin.category.list', ['categories' => $categories]);
+        $search = $request->get('search');
+        $categories = Category::where('category_name', 'like', '%' .$search. '%')->paginate(50);
+        return view('admin.category.search',[
+            'title'=>'Result Search Category'], compact('categories'));
+    }
 }

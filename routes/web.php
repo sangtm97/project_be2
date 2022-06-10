@@ -50,6 +50,7 @@ Route::middleware(['auth'])->group(function () {
             Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
             // delete
             Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
+            Route::get('search', [CategoryController::class, 'search'])->name('search');
         });
     });
 });
