@@ -84,4 +84,5 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
         });
     });
+    });
 });
