@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\WishlistController;
+use App\Http\Controllers\ProductDetailController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Maincontroller;
 use App\Http\Controllers\ListProductController;
@@ -24,3 +25,7 @@ Route::get('/listproduct', [ListProductController::class, 'index']);
 
 Route::get('/wishlist', [WishlistController::class, 'index']);
 Route::get('/productdetail', [ProductDetailController::class, 'index']);
+Route::get('/', function () {
+    return view('home');
+});
+
