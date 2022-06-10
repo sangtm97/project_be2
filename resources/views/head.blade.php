@@ -67,6 +67,16 @@ $less->compileFile('./2/public/less/module-2.less', './2/public/css/module-2.css
 ?>
 <link href="./2/public/css/module-2.css" rel="stylesheet" type="text/css" />
 
+<!-- module-3 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./3/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./3/public/less/module-3.less', './3/public/css/module-3.css');
+?>
+<link href="./3/public/css/module-3.css" rel="stylesheet" type="text/css" />
+
 <!-- Module-5 -->
 <?php
 if (!class_exists('lessc')) {
