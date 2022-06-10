@@ -7,11 +7,11 @@ use App\Http\Controllers\ProductDetailController;
 use App\Http\Controllers\WishlistController;
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Admin\CategoryController;
+use \App\Http\Controllers\Admin\ProtypeController;
 
 use \App\Http\Controllers\Admin\MainControllers;
 use \App\Http\Controllers\Admin\Users\LoginController;
 
-use \App\Http\Controllers\Admin\ProtypeController;
 use \App\Http\Controllers\Admin\EndowController;
 use \App\Http\Controllers\Admin\ProductController;
 
