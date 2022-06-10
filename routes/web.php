@@ -83,6 +83,7 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
             Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
+            Route::get('search', [ProductController::class, 'search'])->name('search');
         });
     });
     });

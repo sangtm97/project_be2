@@ -92,4 +92,11 @@ class ProductController extends Controller
         $products->delete();
         return redirect()->route('list')->with(['message' => 'Success']);
     }
+
+    public function search(Request $request){
+        $search = $request->get('search');
+        $products = Product::where('product_name', 'like', '%' .$search. '%')->paginate(50);
+        return view('admin.product.search',[
+            'title'=>'Result Search Product'], compact('products'));
+    }
 }
