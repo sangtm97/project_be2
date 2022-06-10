@@ -183,4 +183,13 @@ $less->compileFile('./12/public/less/module-12.less', './12/public/css/module-12
 ?>
 <link href="./12/public/css/module-12.css" rel="stylesheet" type="text/css" />
 
+<!-- Module-17 -->
+<?php
+if (!class_exists('lessc')) {
+    include ('./17/public/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('./17/public/less/module-17.less', './17/public/css/module-17.css');
+?>
+<link href="./17/public/css/module-17.css" rel="stylesheet" type="text/css" />
 
