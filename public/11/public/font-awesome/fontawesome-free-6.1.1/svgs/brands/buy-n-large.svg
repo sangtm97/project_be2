@@ -1,0 +1,6 @@
+000-000000000000}	0	8024402c	Microsoft Security Essentials (	Failure	Software Synchronization	Windows Update Client failed to detect with error 0x8024402c.
+2022-01-25	15:10:43:063	 324	1748	Report	WARNING: CWERReporter finishing event handling with error = 800700a1
+2022-01-25	15:10:53:064	 324	1748	Report	REPORT EVENT: {8D933402-1C14-4819-BDF9-5F531F4D630F}	2022-01-25 15:10:18:026+0700	1	148	101	{00000000-0000-0000-0000-000000000000}	0	8024402c	Microsoft Security Essentials (	Failure	Software Synchronization	Windows Update Client failed to detect with error 0x8024402c.
+2022-01-25	15:10:53:070	 324	1748	Report	WARNING: CWERReporter finishing event handling with error = 800700a1
+2022-01-25	15:11:03:071	 324	1748	Report	REPORT EVENT: {8D933402-1C14-4819-BDF9-5F531F4D630F}	2022-01-25 15:10:18:026+0700	1	148	101	{00000000-0000-0000-0000-000000000000}	0	8024402c	Microsoft Security Essentials (	Failure	Software Synchronization	Windows Update Client failed to detect with error 0x8024402c.
+2022-01-25	15:11:03:075	 324	1748	Report	WARNING: CWERReporter fin

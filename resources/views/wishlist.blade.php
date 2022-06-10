@@ -6,7 +6,9 @@
 </head>
 
 <body>
+@include('module-11')
     @include('module-18')
+@include('module-13')
 
 </body>
 

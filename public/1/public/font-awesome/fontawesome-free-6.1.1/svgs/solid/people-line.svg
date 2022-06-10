@@ -1,0 +1,44 @@
+/tr>
+<tr>
+<td><span class="detail-name">Host Controller Location</span></td>
+<td>PCI bus 0, device 29, function 0</td>
+</tr>
+<tr>
+<td><span class="detail-name">Device ID</span></td>
+<td>USB\VID_8086&amp;PID_1C26</td>
+</tr>
+<tr>
+<td><span class="detail-name">Port Path</span></td>
+<td></td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            error-log-entry
+                        ">
+<div class="log-entry-header">CPU Utilization:Processor utilization is high</div>
+<div class="log-entry-content">
+<div class="log-entry-description">The average processor utilization during the trace was high.  The system will consume less power when the average processor utilization is very low.  Review processor utilization for individual processes to determine which applications and services contribute the most to total processor utilization.</div>
+<table>
+<tr>
+<td><span class="detail-name">Average Utilization (%)</span></td>
+<td>24.65</td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            error-log-entry
+                        ">
+<div class="log-entry-header">Platform Power Management Capabilities:PCI Express Active-State Power Management (ASPM) Disabled</div>
+<div class="log-entry-content">
+<div class="log-entry-description">PCI Express Active-State Power Management (ASPM) has been disabled due to a known incompatibility with the hardware in this computer.</div><span></span></div>
+</div>
+</div>
+<h4>Warnings</h4>
+<div class="log-entry">
+<div class="
+                            warn

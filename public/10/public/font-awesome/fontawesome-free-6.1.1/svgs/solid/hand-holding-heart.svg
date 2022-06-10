@@ -1,0 +1,20 @@
+c.suffix.cs
+    public ulong ulong4 = 4LU;
+    //                    ^^^ meta.number.integer.decimal.cs
+    //                    ^ constant.numeric.value.cs
+    //                     ^^ constant.numeric.suffix.cs
+    public ulong ulong5 = 5uL;
+    //                    ^^^ meta.number.integer.decimal.cs
+    //                    ^ constant.numeric.value.cs
+    //                     ^^ constant.numeric.suffix.cs
+    public ulong ulong6 = 6Ul;
+    //                    ^^^ meta.number.integer.decimal.cs
+    //                    ^ constant.numeric.value.cs
+    //                     ^^ constant.numeric.suffix.cs
+    public ulong ulong7 = 7lU;
+    //                    ^^^ meta.number.integer.decimal.cs
+    //                    ^ constant.numeric.value.cs
+    //                     ^^ constant.numeric.suffix.cs
+    public ulong ulong8 = 8Lu;
+    //                    ^^^ meta.number.integer.decimal.cs
+    //              

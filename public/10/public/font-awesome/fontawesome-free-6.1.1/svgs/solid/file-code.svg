@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="Fix for KB4519976" displayName="default" company="Microsoft Corporation" copyright="Microsoft Corporation" supportInformation="http://support.microsoft.com/?kbid=4519976" creationTimeStamp="2019-10-07T11:38:53Z" lastUpdateTimeStamp="2019-10-07T11:38:53Z">
+	<assemblyIdentity name="Package_1854_for_KB4519976" version="6.1.1.9" language="neutral" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"/>
+	<package identifier="KB4519976" releaseType="Security Update" restart="possible" psfName="Windows6.1-KB4519976-x64.psf">
+		<parent buildCompare="EQ" serviceCompare="GE" integrate="separate" disposition="detect">
+			<assemblyIdentity name="Microsoft-Windows-InternetExplorer-Package" version="11.2.9600.16428" processorArchitecture="amd64" langua
