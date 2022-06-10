@@ -1,0 +1,232 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-6 .container {
+  max-width: 1200px !important;
+}
+.module-6 .page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+  font-size: 14px;
+  color: #909090;
+}
+.module-6 .page-header a {
+  color: #909090;
+  text-decoration: none;
+}
+.module-6 .page-header i {
+  font-size: 10px;
+  margin: 0 5px;
+}
+.module-6 .page-header__title {
+  font-size: 32px;
+  margin: 0;
+  padding: 42px 20px 30px 20px;
+  text-align: center;
+  color: #000;
+}
+.module-6 .product-filter-box {
+  margin: -7px -7px 30px;
+  clear: both;
+}
+.module-6 .product-filter-box a {
+  display: inline-block;
+  padding: 10px 15px 8px;
+  background-color: #f5f5f5;
+  margin: 7px;
+  color: #767676;
+  font-size: 14px;
+  text-decoration: none;
+}
+.module-6 .product-filter-box a span {
+  margin-left: 5px;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 1;
+  padding-top: 4px;
+}
+.module-6 .product-filter-box a span svg {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  vertical-align: -3px;
+}
+.module-6 .card-product {
+  position: relative;
+}
+.module-6 .card-product .card-product-img {
+  position: relative;
+}
+.module-6 .card-product .card-product-img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.module-6 .card-product .card-product-img .card-product-front {
+  position: absolute;
+  right: 0;
+}
+.module-6 .card-product .product-bage-sales {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+.module-6 .card-product .product-bage-sales .product-bage-sales_title {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 3px 11px;
+}
+.module-6 .card-product .product-bage-sales .product-bage-sales_price {
+  display: block;
+  padding: 0px 11px;
+  background: #000;
+  color: #fff;
+}
+.module-6 .card-product .product-bage-sales .product-bage-sales_sold-out {
+  padding: 2px 11px;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #a0a0a0;
+  color: #fff;
+}
+.module-6 .card-product .product-button {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  display: none;
+}
+.module-6 .card-product .product-button .btn-wishlist,
+.module-6 .card-product .product-button .btn-view {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  position: relative;
+  transition: all 2s;
+}
+.module-6 .card-product .product-button .btn-wishlist .btn-wishlist-icon,
+.module-6 .card-product .product-button .btn-view .btn-view-icon,
+.module-6 .card-product .product-button .btn-add-to-cart .btn-view-icon {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+.module-6 .card-product .product-button .btn-view .btn-view-title {
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 12px;
+  background: #000;
+  border-radius: 5px;
+}
+.module-6 .card-product .product-button .btn-wishlist .btn-wishlist-title {
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 12px;
+  background: #000;
+  border-radius: 5px;
+  display: none;
+}
+.module-6 .card-product .product-button .btn-add-to-cart .btn-add-to-cart-title {
+  font-size: 14px;
+  color: #fff;
+  padding: 2px 12px;
+  background: #000;
+  border-radius: 5px;
+  display: none;
+}
+.module-6 .card-product .product-button .btn-wishlist .btn-wishlist-title::after {
+  content: '';
+  position: absolute;
+  top: 38%;
+  right: 32%;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #000;
+}
+.module-6 .card-product .product-button .btn-view {
+  display: flex;
+  align-items: center;
+}
+.module-6 .card-product .product-button .btn-add-to-cart .btn-add-to-cart-title::after {
+  content: '';
+  position: absolute;
+  top: 38%;
+  right: 32%;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #000;
+}
+.module-6 .card-product .product-button .btn-view .btn-view-title::after {
+  content: '';
+  position: absolute;
+  top: 38%;
+  right: 32%;
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #000;
+}
+.module-6 .card-product .card-content {
+  position: absolute;
+  text-align: center;
+  padding: 385px 25px 0 75px;
+}
+.module-6 .content {
+  background-color: #fff;
+}
+.module-6 .card-product .card-content .card-product-name {
+  font-size: 24px;
+  padding: 20px 20px 18px;
+  margin: 0 0 3px;
+}
+.module-6 .card-product .card-content .card-product-price {
+  font-size: 16px;
+  font-weight: 500;
+  color: #767676;
+}
+.module-6 .card-product .card-content .card-product-price .old-price {
+  font-size: 14px;
+  color: #a6a6a6;
+  text-decoration: line-through;
+  padding-right: 6px;
+}
+.module-6 .card-product .card-content .card-product-price .new-price-active {
+  font-size: 16px;
+  color: #ff6f61;
+}
+.module-6 .card-product:hover .product-button {
+  display: block;
+  cursor: pointer;
+}
+.module-6 .card-product:hover .btn-add-to-cart {
+  display: flex;
+  cursor: pointer;
+}
+.module-6 .card-product:hover .btn-wishlist-icon:hover,
+.module-6 .card-product:hover .btn-view-icon:hover {
+  color: #fff;
+  background: #ff6f61;
+  cursor: pointer;
+}
