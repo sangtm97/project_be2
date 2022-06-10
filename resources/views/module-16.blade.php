@@ -14,8 +14,8 @@
                 <div class="row">
                     <div class="col-md-3 text-center product">
                         <a href="#" class = "img-related">
-                            <img src="http://localhost:70/16/public/images/fur1501.jpg" class="img-fluid img1" alt="">
-                            <img src="http://localhost:70/16/public/images/fur1502.jpg" class="img-fluid img2" alt="">
+                            <img src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur8001.jpg?resize=570%2C684&ssl=1" class="img-fluid img1" alt="">
+                            <img src="https://i0.wp.com/demo4.drfuri.com/razzi9/wp-content/uploads/sites/26/2020/12/fur8003.jpg?resize=570%2C684&ssl=1" class="img-fluid img2" alt="">
                             <div class="content-an1">
                                 <i class="fa-solid fa-shield-heart"></i>
                             </div>

@@ -75,26 +75,26 @@
 }
 .module-16 .add {
   position: absolute;
-  top: 125px;
+  top: 135px;
   left: 0;
   background-color: black;
   color: white;
   padding-left: 86px;
   padding-right: 87px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   opacity: 0;
 }
 .module-16 .add-2 {
   position: absolute;
-  top: 125px;
+  top: 135px;
   left: 0;
   background-color: black;
   color: white;
   padding-left: 80px;
   padding-right: 80px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   opacity: 0;
 }
 .module-16 .product:hover .add {
