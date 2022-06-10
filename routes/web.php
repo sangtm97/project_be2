@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Maincontroller;
 use App\Http\Controllers\ListProductController;
 use \App\Http\Controllers\Admin\Users\LoginController;
-use \App\Http\Controllers\Admin\MainController;
+use \App\Http\Controllers\Admin\MainControllers;
 use \App\Http\Controllers\Admin\CategoryController;
 
 
@@ -37,8 +37,8 @@ Route::post('admin/users/login/store',[LoginController::class,'store']);
 
 Route::middleware(['auth'])->group(function () {
     Route::prefix('admin')->group(function (){
-        Route::get('/',[MainController::class,'index'])->name('admin');
-        Route::get('main',[MainController::class,'index']);
+        Route::get('/',[MainControllers::class,'index'])->name('admin');
+        Route::get('main',[MainControllers::class,'index']);
 
         //Category
         Route::prefix('categories')->group(function (){
