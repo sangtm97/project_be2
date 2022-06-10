@@ -1,0 +1,14 @@
+d error handle when process CD copy
+  *) Fixed file open without response error under Windows 98 operating system 
+  *) Fixed ISO path level limit problem 
+  *) Fixed display wrong information with create new folder to ISO file 
+  *) Some minor bugs fixed 
+
+4, UltraISO 4.0 (June 1, 2002)
+  +) Intelligent ISO document format processing, may open Nero-Buring ROM, Easy CD 
+     Creator,ISOBuster, ClonecCd, and nearly all format created by Virtual CD tools 
+  +) Support directly copy compact disc to ISO image file 
+  +) Support extract boot image from ISO file 
+  +) You can set hidden attribute of  file/folder in ISO 
+  +) Retain hidden attribute on file extract form/add to ISO image 
+  +) Keep file date/time attribute after extract fro

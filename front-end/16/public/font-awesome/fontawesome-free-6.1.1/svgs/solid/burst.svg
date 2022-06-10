@@ -1,0 +1,30 @@
+">
+       <CAPTION>Monday</CAPTION>
+       <COMMENT>Second Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY2">
+       <CAPTION>Tuesday</CAPTION>
+       <COMMENT>Third Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY3">
+       <CAPTION>Wednesday</CAPTION>
+       <COMMENT>Fourth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY4">
+       <CAPTION>Thursday</CAPTION>
+       <COMMENT>Fifth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY5">
+       <CAPTION>Friday</CAPTION>
+       <COMMENT>Sixth Day of the week</COMMENT>
+    </STRING>   
+    <STRING ID="IDS_NWLIC_WEEK_DAY6">
+       <CAPTION>Saturday</CAPTION>
+       <COMMENT>Seventh Day of the week</COMMENT>
+    </STRING>
+  <STRING ID="IDS_LICENSING_ERROR_CAPTION">
+    <CAPTION>Licensing Error</CAPTION>
+    <COMMENT>Licensing error dialog title</COMMENT>
+  </STRING>
+  <STRING ID="IDS_LICTS_INIT_ERROR_TITLE">
+    <CAPTION>Unable to initi
