@@ -87,3 +87,4 @@ Route::group(['middleware' => ['XSS']], function () {
     });
     });
 });
+

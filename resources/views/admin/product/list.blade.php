@@ -4,6 +4,7 @@
     <table class="table">
         <thead>
             <tr>
+                <th>STT</th>
                 <th>Id</th>
                 <th>Product name</th>
                 <th>Price</th>
@@ -12,9 +13,13 @@
                 <th>Endow_id</th>
             </tr>
         </thead>
+        <?php
+            $i = 1;
+        ?>
         <tbody>
         @foreach($products as $product)
             <tr>
+                <td>{{$i++}}</td>
                 <td>{{$product->id}}</td>
                 <td>{{$product->product_name}}</td>
                 <td>{{$product->product_price}}</td>
@@ -35,4 +40,5 @@
         @endforeach
         </tbody>
     </table>
+    {!!$products->render()!!}
 @endsection
