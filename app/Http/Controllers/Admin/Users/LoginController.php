@@ -30,7 +30,7 @@ class LoginController extends Controller
         {
             return redirect()->route('admin');
         }
-        Session::flash('error' ,'Email hoặc mật khẩu không chính xác');
+        Session::flash('error' ,'Đăng nhập thất bại _ Email hoặc mật khẩu không chính xác');
         return redirect()->back();
     }
 }
