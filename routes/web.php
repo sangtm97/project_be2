@@ -28,6 +28,7 @@ Route::middleware(['auth'])->group(function () {
          Route::prefix('protypes')->group(function (){
             Route::get('add', [ProtypeController::class, 'create']);
             Route::post('add', [ProtypeController::class, 'store']);
+            Route::get('add', [ProtypeController::class, 'create']);
             Route::get('list', [ProtypeController::class, 'list'])->name('list');
             Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
             Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
