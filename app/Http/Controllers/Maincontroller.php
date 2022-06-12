@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
@@ -18,16 +17,3 @@ class MainController extends Controller
     }
 
 }
-=======
-use Illuminate\Http\Request;
-
-class Maincontroller extends Controller
-{
-    public function index(){
-        return view('home', [
-            'title' => 'Home'
-        ]);
-
-    }
-}
->>>>>>> 7-dung/module16-related-products
