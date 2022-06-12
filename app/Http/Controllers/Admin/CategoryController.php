@@ -8,6 +8,7 @@ use App\Http\Requests\Category\UpdateFormRequest;
 use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Services\Category\CategoryService;
+use Mail;
 
 class CategoryController extends Controller
 {
@@ -26,6 +27,11 @@ class CategoryController extends Controller
 
     public function store(CategoryCreateFormRequest $request){
         $result = $this->categoryService->create($request);
+        
+        $name = 'Success Notification';
+        Mail::send('emails.sendmailaddcategory',compact('name'),function ($email){
+            $email->to('minhsangtrieu94@gmail.com','Trieu Minh Sang');
+        });
         return redirect()->back();
         //dd($request->all());
     }
@@ -71,5 +77,13 @@ class CategoryController extends Controller
         $categories = Category::where('category_name', 'like', '%' .$search. '%')->paginate(50);
         return view('admin.category.search',[
             'title'=>'Result Search Category'], compact('categories'));
+    }
+
+    public function test_mail()
+    {
+        $name = 'test name for email';
+        Mail::send('emails.sendmailaddcategory',compact('name'),function ($email){
+            $email->to('minhsangtrieu94@gmail.com','Trieu Minh Sang');
+        });
     }
 }
