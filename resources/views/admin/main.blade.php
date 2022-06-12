@@ -17,16 +17,6 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      {{-- <li>
-        <form action="{{route('search')}}" method="GET">
-          <div class="form-group" style="display: flex; gap: 2px;">
-            <input type="search" name="search" class="form-control">
-            <span class="form-group-btn">
-              <button type="submit" class="btn btn-primary">Search</button>
-            </span>
-          </div>
-        </form>
-      </li> --}}
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>

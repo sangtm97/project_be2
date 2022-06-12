@@ -84,6 +84,17 @@ Route::group(['middleware' => ['XSS']], function () {
                 Route::delete('{id}/destroyproducts', [ProductController::class, 'destroy'])->name('destroyproducts');
                 Route::get('searchproducts', [ProductController::class, 'search'])->name('searchproducts');
             });
+
+            //Protype
+         	Route::prefix('protypes')->group(function (){
+            Route::get('add', [ProtypeController::class, 'create']);
+            Route::post('add', [ProtypeController::class, 'store']);
+            Route::get('test-email', [ProductController::class, 'test_mail']);
+            Route::get('listprotypes', [ProtypeController::class, 'listprotypes'])->name('listprotypes');
+            Route::get('{id}/editprotypes', [ProtypeController::class, 'edit'])->name('editprotypes');
+            Route::put('{id}/updateprotypes', [ProtypeController::class, 'update'])->name('updateprotypes');
+            Route::delete('{id}/destroyprotypes', [ProtypeController::class, 'destroy'])->name('destroyprotypes');
+        	});
         });
     });
 });
