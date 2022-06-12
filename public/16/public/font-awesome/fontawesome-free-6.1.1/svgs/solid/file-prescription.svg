@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v3" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." description="Internet Explorer 11" displayName="Internet Explorer 11" manifestVersion="1.0" supportInformation="http://go.microsoft.com/fwlink/?LinkId=133041">
+  <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-InternetExplorer-Package" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="11.2.9600.16428"/>
+  <package identifier="KB2841134" releaseType="Update">
+    <parent integrate="delegate">
+      <assemblyIdentity buildType="release" language="neutral" name="Microsoft-Windows-PlatformUpdate-Win7-SRV08R2-Package-TopLevel" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" version="7.1.7601.225"/>
+    </parent>
+    <update name="Internet-Explorer-VistaPlus-Update" restart="possible">
+      <package contained="true" int

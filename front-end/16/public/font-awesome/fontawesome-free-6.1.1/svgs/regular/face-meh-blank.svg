@@ -1,0 +1,23 @@
+to a file
+40010=Load the File List from a file
+
+50000=Administration
+50001=Enable tray &icon
+50002=Enable desktop &tip
+50003=Enable &shell context menu extension
+50004=Enable pass&word control
+50005=Set &New Password
+50006=Your password is empty, please set a new password.
+50007=Set a new password successfully.
+50008=Need password when &committing files via shell context menu
+50009=Notify me with low free space on the protected volume
+50010=More &Details
+50011=WARNING: With low free space on the protected volume, SD may not work properly.
+50012=&Start with Windows
+50013=&Encrypt write cache
+50014=Check for updates automatically
+50015=Enable hibernation in Shadow Mode
+
+60000=Registry Exclusion List
+60001=Registry items you wish to e&xclude:
+60002=Item

@@ -1,0 +1,8 @@
+ file already exists (183)
+2022-01-12T13:55:57.366+07:00| usbArb| I125: Hostinfo_OpenProcessBits: OpenProcess access bits are 1000.
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware USB Arbitration Service\settings.ini 
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- NON PERSISTENT
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- USER PREFERENCES
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- USER DEFAULTS C:\Windows\system32\config\systemprofile\AppData\Roaming\VMware\config.ini 
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware USB Arbitration Service\config.ini 
+2022-01-12T13:55:57.409+07:00| usbArb| I125: DICT --- SITE DEFAULTS C:\ProgramData\VMwa

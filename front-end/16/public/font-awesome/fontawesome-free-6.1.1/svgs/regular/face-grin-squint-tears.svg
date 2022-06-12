@@ -1,0 +1,51 @@
+
+Korea Standard Time:18,19:KR:Asia/Seoul:
+Tokyo:18,19::Asia/Tokyo:
+Tokyo Standard Time:18,19::Asia/Tokyo:
+Yakutsk:18,19:RU:Asia/Yakutsk:
+Yakutsk Standard Time:18,19:RU:Asia/Yakutsk:
+Central European:2,3:CS:Europe/Belgrade:
+Central European Standard Time:2,3:CS:Europe/Belgrade:
+W. Europe:2,3::Europe/Berlin:
+W. Europe Standard Time:2,3::Europe/Berlin:
+Tasmania:20,-1::Australia/Hobart:
+Tasmania Standard Time:20,-1::Australia/Hobart:
+AUS Eastern:20,21::Australia/Sydney:
+AUS Eastern Standard Time:20,21::Australia/Sydney:
+E. Australia:20,21::Australia/Brisbane:
+E. Australia Standard Time:20,21::Australia/Brisbane:
+Sydney Standard Time:20,21::Australia/Sydney:
+Tasmania Standard Time:20,65::Australia/Hobart:
+Central Pacific:22,23::Pacific/Guadalcanal:
+Central Pacific Standard Time:22,23::Pacific/Guadalcanal:
+Dateline:24,25::GMT-1200:
+Dateline Standard Time:24,25::GMT-1200:
+Fiji:24,25::Pacific/Fiji:
+Fiji Standard Time:24,25::Pacific/Fiji:
+Samoa:26,27::Pacific/Apia:
+Samoa Standard Time:26,27::Pacific/Apia:
+Hawaiian:28,29::Pacific/Honolulu:
+Hawaiian Standard Time:28,29::Pacific/Honolulu:
+Alaskan:30,31::America/Anchorage:
+Alaskan Standard Time:30,31::America/Anchorage:
+Pacific:32,33::America/Los_Angeles:
+Pacific Standard Time:32,33::America/Los_Angeles:
+Mexico Standard Time 2:34,35:MX:America/Chihuahua:
+Mountain:34,35::America/Denver:
+Mountain Standard Time:34,35::America/Denver:
+Central:36,37::America/Chicago:
+Central Standard Time:36,37::America/Chicago:
+Eastern:38,39::America/New_York:
+Eastern Standard Time:38,39::America/New_York:
+E. Europe:4,5::EET:
+E. Europe Standard Time:4,5::EET:
+Egypt:4,68::Africa/Cairo:
+Egypt Standard Time:4,68::Africa/Cairo:
+South Africa:4,69::Africa/Harare:
+South Africa Standard Time:4,69::Africa/Harare:
+Atlantic:40,41::America/Halifax:
+Atlantic Standard Time:40,41::America/Halifax:
+SA Eastern:42,43:GF:America/Cayenne:
+SA Eastern Standard Time:42,43:GF:America/Cayenne:
+Mid-Atlantic:44,45::Atlantic/South_Georgia:
+Mid-Atlantic Standa
