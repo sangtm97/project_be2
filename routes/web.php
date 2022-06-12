@@ -1,4 +1,3 @@
-
 <?php
 
 use App\Http\Controllers\ListProductController;
@@ -7,13 +6,11 @@ use App\Http\Controllers\ProductDetailController;
 use App\Http\Controllers\WishlistController;
 use Illuminate\Support\Facades\Route;
 use \App\Http\Controllers\Admin\CategoryController;
-
-use \App\Http\Controllers\Admin\MainControllers;
-use \App\Http\Controllers\Admin\Users\LoginController;
-
-use \App\Http\Controllers\Admin\ProtypeController;
 use \App\Http\Controllers\Admin\EndowController;
+use \App\Http\Controllers\Admin\MainControllers;
 use \App\Http\Controllers\Admin\ProductController;
+use \App\Http\Controllers\Admin\ProtypeController;
+use \App\Http\Controllers\Admin\Users\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +28,7 @@ Route::get('/', [Maincontroller::class, 'index']);
 Route::get('/listproduct', [ListProductController::class, 'index']);
 
 Route::get('/wishlist', [WishlistController::class, 'index']);
-Route::get('/productDetail', [ProductDetailController::class, 'index']);
+Route::get('/productDetail/{id}', [ProductDetailController::class, 'getChitiet'])->name('productDetail');
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 Route::post('admin/users/login/store', [LoginController::class, 'store']);
@@ -55,36 +52,35 @@ Route::group(['middleware' => ['XSS']], function () {
                 Route::get('search', [CategoryController::class, 'search'])->name('search');
             });
 
-         //Protype
-         Route::prefix('protypes')->group(function (){
-            Route::get('add', [ProtypeController::class, 'create']);
-            Route::post('add', [ProtypeController::class, 'store']);
-            Route::get('list', [ProtypeController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
-            Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
-        });
-        
-        #Endow
-        Route::prefix('endows')->group(function (){
-            Route::get('add', [EndowController::class, 'create']);
-            Route::post('add', [EndowController::class, 'store']);
-            Route::get('list', [EndowController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [EndowController::class, 'edit'])->name('edit');
-            Route::put('{id}/update', [EndowController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [EndowController::class, 'destroy'])->name('destroy');
-        });
+            //Protype
+            Route::prefix('protypes')->group(function () {
+                Route::get('add', [ProtypeController::class, 'create']);
+                Route::post('add', [ProtypeController::class, 'store']);
+                Route::get('list', [ProtypeController::class, 'list'])->name('list');
+                Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
+                Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
+                Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
+            });
 
-        #Product
-        Route::prefix('products')->group(function (){
-            Route::get('add', [ProductController::class, 'create']);
-            Route::post('add', [ProductController::class, 'store']);
-            Route::get('list', [ProductController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
-            Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
+            #Endow
+            Route::prefix('endows')->group(function () {
+                Route::get('add', [EndowController::class, 'create']);
+                Route::post('add', [EndowController::class, 'store']);
+                Route::get('list', [EndowController::class, 'list'])->name('list');
+                Route::get('{id}/edit', [EndowController::class, 'edit'])->name('edit');
+                Route::put('{id}/update', [EndowController::class, 'update'])->name('update');
+                Route::delete('{id}/destroy', [EndowController::class, 'destroy'])->name('destroy');
+            });
+
+            #Product
+            Route::prefix('products')->group(function () {
+                Route::get('add', [ProductController::class, 'create']);
+                Route::post('add', [ProductController::class, 'store']);
+                Route::get('list', [ProductController::class, 'list'])->name('list');
+                Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
+                Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
+                Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
+            });
         });
-    });
     });
 });
-

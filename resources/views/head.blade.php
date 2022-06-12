@@ -37,7 +37,6 @@
 <?php
 if (!class_exists('lessc')) {
 
-
     include './1/public/libs/lessc.inc.php';
 }
 $less = new lessc;
@@ -93,7 +92,7 @@ $less->compileFile('./5/public/less/module-5.less', './5/public/css/module-5.css
 <!-- Module-6 -->
 <?php
 if (!class_exists('lessc')) {
-    include ('./6/public/libs/lessc.inc.php');
+    include './6/public/libs/lessc.inc.php';
 }
 $less = new lessc;
 $less->compileFile('./6/public/less/module-6.less', './6/public/css/module-6.css');
@@ -116,7 +115,7 @@ $less->compileFile('./7/public/less/module-7.less', './7/public/css/module-7.css
 
 <?php
 if (!class_exists('lessc')) {
-    include ('./8/public/libs/lessc.inc.php');
+    include './8/public/libs/lessc.inc.php';
 }
 $less = new lessc;
 $less->compileFile('./8/public/less/module-8.less', './8/public/css/module-8.css');
@@ -136,13 +135,13 @@ $less->compileFile('./9/public/less/module-9.less', './9/public/css/module-9.css
 <!-- module-10 -->
 <?php
 if (!class_exists('lessc')) {
-    include ('./10/public/libs/lessc.inc.php');
+    include './10/public/libs/lessc.inc.php';
 }
 $less = new lessc;
 $less->compileFile('./10/public/less/module-10.less', './10/public/css/module-10.css');
 ?>
 <link href="./10/public/css/module-10.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="{{ asset('./10/public/css/module-10.css') }}">
 <!-- Module-11 -->
 <?php
 if (!class_exists('lessc')) {
@@ -152,7 +151,7 @@ $less = new lessc;
 $less->compileFile('./11/public/less/module-11.less', './11/public/css/module-11.css');
 ?>
 <link href="./11/public/css/module-11.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="{{ asset('./11/public/css/module-11.css') }}">
 
 <!-- Module-12 -->
 <?php
@@ -167,12 +166,13 @@ $less->compileFile('./12/public/less/module-12.less', './12/public/css/module-12
 <!-- Module-14 -->
 <?php
 if (!class_exists('lessc')) {
-    include ('./14/public/libs/lessc.inc.php');
+    include './14/public/libs/lessc.inc.php';
 }
 $less = new lessc;
 $less->compileFile('./14/public/less/module-14.less', './14/public/css/module-14.css');
 ?>
 <link href="./14/public/css/module-14.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{{ asset('./14/public/css/module-14.css') }}">
 <!-- Module-15 -->
 <?php
 if (!class_exists('lessc')) {
@@ -182,6 +182,7 @@ $less = new lessc;
 $less->compileFile('./15/public/less/module-15.less', './15/public/css/module-15.css');
 ?>
 <link href="./15/public/css/module-15.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="{{ asset('./15/public/css/module-15.css') }}">
 <!-- Module-17 -->
 <?php
 if (!class_exists('lessc')) {
