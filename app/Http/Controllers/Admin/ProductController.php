@@ -97,11 +97,19 @@ class ProductController extends Controller
         return redirect()->route('list')->with(['message' => 'Success']);
     }
 
+
     public function test_mail()
     {
         $name = 'test name for email';
         Mail::send('emails.test',compact('name'),function ($email){
             $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
         });
+
+    public function search(Request $request){
+        $search = $request->get('search');
+        $products = Product::where('product_name', 'like', '%' .$search. '%')->paginate(50);
+        return view('admin.product.search',[
+            'title'=>'Result Search Product'], compact('products'));
+
     }
 }

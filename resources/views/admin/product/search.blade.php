@@ -1,17 +1,6 @@
 @extends('admin.main')
 
 @section('content')
-<div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
-    <h3 class="card-title">{{ $title }}</h3>
-    <form action="{{route('searchproducts')}}" method="GET" style="margin-left:60%; margin-bottom: -18px;">
-        <div class="form-group" style="display: flex; gap: 2px;">
-          <input type="search" name="search" class="form-control">
-          <span class="form-group-btn">
-            <button type="submit" class="btn btn-warning">Search</button>
-          </span>
-        </div>
-      </form>
-  </div>
     <table class="table">
         <thead>
             <tr>
@@ -33,10 +22,10 @@
                 <td>{{$product->product_image}}</td>
                 <td>{{$product->endow_id}}</td>
                 <td style="display: flex;gap: 6px">
-                    <a class="btn btn-primary btn-sm" href="{{route('editproducts', $product->id)}}">
+                    <a class="btn btn-primary btn-sm" href="{{route('edit', $product->id)}}">
                         Edit
                     </a>
-                    <form action="{{route('destroyproducts', $product->id)}}" method="POST">
+                    <form action="{{route('destroy', $product->id)}}" method="POST">
                         @method('DELETE')
                         @csrf
                         <button type="submit" class="btn btn-danger">Delete</button>

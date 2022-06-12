@@ -112,7 +112,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="/admin/products/list" class="nav-link">
+                        <a href="/admin/products/listproducts" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>List Product</p>
                         </a>
