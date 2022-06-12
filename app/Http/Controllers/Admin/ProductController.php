@@ -83,7 +83,7 @@ class ProductController extends Controller
     }
 
 
-    public function listlistproducts(){
+    public function listproducts(){
         $products = Product::paginate(7);
         return view('admin.product.list',[
             'title'=>'List Product'],
