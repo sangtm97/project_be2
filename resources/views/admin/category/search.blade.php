@@ -1,6 +1,17 @@
 @extends('admin.main')
 
 @section('content')
+<div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
+    <h3 class="card-title">{{ $title }}</h3>
+    <form action="{{route('search')}}" method="GET" style="margin-left:60%; margin-bottom: -18px;">
+        <div class="form-group" style="display: flex; gap: 2px;">
+          <input type="search" name="search" class="form-control">
+          <span class="form-group-btn">
+            <button type="submit" class="btn btn-warning">Search</button>
+          </span>
+        </div>
+      </form>
+  </div>
     <table class="table">
         <thead>
         <tr>
