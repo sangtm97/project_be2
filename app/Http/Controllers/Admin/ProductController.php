@@ -83,13 +83,14 @@ class ProductController extends Controller
     }
 
 
-    public function listproducts(){
-        $products = Product::latest('id')->paginate(50);
+    public function listlistproducts(){
+        $products = Product::paginate(7);
         return view('admin.product.list',[
             'title'=>'List Product'],
             compact('products')
         );
     }
+
 
     public function destroy($id){
         $products = Product::findOrFail($id);
