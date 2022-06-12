@@ -1,8 +1,5 @@
 <div class="module-17">
-
-
     <!-- modal quick view -->
-
     @foreach ($products as $product )
     <!-- Modal -->
     <div class="modal fade" id="quickViewModal{{$product->id}}" tabindex="-1" aria-labelledby="quickViewModalLabel"
@@ -19,7 +16,7 @@
                         <div class="row">
                             <div class="col-md-5">
                                 <img src="./upload/{{$product->product_image}}" class="img-fluid ">
-                                <a href="" class="product-more-info">
+                                <a href="{{route('productDetail',$product->id)}}" class="product-more-info">
                                     <span class="product-more-info__text">More Product Info</span>
                                     <span class="svg-icon "><svg aria-hidden="true" role="img" focusable="false"
                                             xmlns="http://www.w3.org/1700/svg" width="24" height="24"

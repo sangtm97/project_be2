@@ -25,9 +25,7 @@
             <div class="tab-pane fade show active" id="nav-description" role="tabpanel"
                 aria-labelledby="nav-description-tab">
                 <div class="elementor-widget-container">
-                    <p>Lower temperature washes and delicate spin cycles are gentler on garment, helping to maintain
-                        the color, shape and structure of the fabric. At the same time it reduces energy consumption
-                        that is used in care processes.</p>
+                    <p>{{$sanpham->product_description}}</p>
                 </div>
                 <div class="element-container">
                     <div class="row">

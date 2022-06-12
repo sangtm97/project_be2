@@ -4,17 +4,16 @@
             <div class="col-md-6">
                 <div class="card-product">
                     <div class="card-product-img">
-                        <img class="card-img-top card-product-front" src="./14/public/images/product1.jpg"
-                            alt="Card image cap">
+                        <img class="card-img-top card-product-front"
+                            src="{{ asset('./upload/'.$sanpham->product_image) }}" alt="img-fluid">
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="card-detail">
-                    <h2 class="card-product-name">Adagio Nightstand</h2>
-                    <p class="card-product-price">&pound;49.90 (In stock)</p>
-                    <p class="card-product-detail">Designed for simplicity and made from high quality materials. Its
-                        sleek geometry and material combinations creates a modern look.</p>
+                    <h2 class="card-product-name">{{$sanpham->product_name}}</h2>
+                    <p class="card-product-price">$ {{$sanpham->product_price}} (In stock)</p>
+                    <p class="card-product-detail">{{$sanpham->product_description}}</p>
                     <div class="btn-size">
                         <svg aria-hidden="true" role="img" focusable="false" width="22" height="16" viewBox="0 0 22 16"
                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">

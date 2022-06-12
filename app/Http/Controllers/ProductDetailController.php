@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductDetailController extends Controller
@@ -14,7 +15,7 @@ class ProductDetailController extends Controller
      */
     public function index()
     {
-        return view('productDetail', ['title' => 'Product Detail']);
+        return view('productdetail', ['title' => 'Product Detail']);
     }
 
     /**
@@ -47,6 +48,13 @@ class ProductDetailController extends Controller
     public function show(Request $request, $id)
     {
 
+    }
+    public function getChitiet(Request $req)
+    {
+        $id = $req->id;
+        $sanpham = Product::where('id', $id)->first();
+
+        return view('productDetail', compact('sanpham'));
     }
 
     /**
