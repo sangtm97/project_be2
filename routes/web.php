@@ -28,11 +28,11 @@ Route::middleware(['auth'])->group(function () {
          Route::prefix('protypes')->group(function (){
             Route::get('add', [ProtypeController::class, 'create']);
             Route::post('add', [ProtypeController::class, 'store']);
-            Route::get('test-email', [ProtypeController::class, 'test_mail']);
-            Route::get('list', [ProtypeController::class, 'list'])->name('list');
-            Route::get('{id}/edit', [ProtypeController::class, 'edit'])->name('edit');
-            Route::put('{id}/update', [ProtypeController::class, 'update'])->name('update');
-            Route::delete('{id}/destroy', [ProtypeController::class, 'destroy'])->name('destroy');
+            Route::get('test-email', [ProductController::class, 'test_mail']);
+            Route::get('listprotypes', [ProtypeController::class, 'listprotypes'])->name('listprotypes');
+            Route::get('{id}/editprotypes', [ProtypeController::class, 'edit'])->name('editprotypes');
+            Route::put('{id}/updateprotypes', [ProtypeController::class, 'update'])->name('updateprotypes');
+            Route::delete('{id}/destroyprotypes', [ProtypeController::class, 'destroy'])->name('destroyprotypes');
         });
     });
 });

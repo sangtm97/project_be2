@@ -1,7 +1,10 @@
 @extends('admin.main')
 
 @section('content')
-    <form action="{{route('update', $protypes->id)}}" method="POST">
+<div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
+    <h3 class="card-title">{{ $title }}</h3>
+  </div>
+    <form action="{{route('updateprotypes', $protypes->id)}}" method="POST">
         @method('PUT')
         <div class="card-body">
             <div class="form-group">

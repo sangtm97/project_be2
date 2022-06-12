@@ -48,11 +48,11 @@ class ProtypeController extends Controller
         $protypes = Protype::findOrFail($id);
         $protypes->protype_name = $request->input('protype_name');
         $protypes->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listprotypes')->with(['message' => 'Success']);
     }
 
 
-    public function list(){
+    public function listprotypes(){
         $protypes = Protype::latest('id')->paginate(50);
         return view('admin.protype.list',[
             'title'=>'List Protype'],
@@ -63,7 +63,7 @@ class ProtypeController extends Controller
     public function destroy($id){
         $protypes = Protype::findOrFail($id);
         $protypes->delete();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listprotypes')->with(['message' => 'Success']);
     }
     public function test_mail()
     {

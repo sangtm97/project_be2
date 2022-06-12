@@ -82,7 +82,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/admin/protypes/list" class="nav-link">
+                <a href="/admin/protypes/listprotypes" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>List Protype</p>
                 </a>
