@@ -79,11 +79,11 @@ class ProductController extends Controller
         $products->product_price = $request->input('product_price');
         $products->product_description = $request->input('product_description');
         $products->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listproducts')->with(['message' => 'Success']);
     }
 
 
-    public function list(){
+    public function listproducts(){
         $products = Product::latest('id')->paginate(50);
         return view('admin.product.list',[
             'title'=>'List Product'],
@@ -94,7 +94,7 @@ class ProductController extends Controller
     public function destroy($id){
         $products = Product::findOrFail($id);
         $products->delete();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listproducts')->with(['message' => 'Success']);
     }
 
 
@@ -104,12 +104,12 @@ class ProductController extends Controller
         Mail::send('emails.test',compact('name'),function ($email){
             $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
         });
-
+    }
     public function search(Request $request){
         $search = $request->get('search');
         $products = Product::where('product_name', 'like', '%' .$search. '%')->paginate(50);
         return view('admin.product.search',[
             'title'=>'Result Search Product'], compact('products'));
-
+        
     }
 }

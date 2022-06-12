@@ -78,11 +78,11 @@ Route::group(['middleware' => ['XSS']], function () {
                 Route::get('add', [ProductController::class, 'create']);
                 Route::post('add', [ProductController::class, 'store']);
                  Route::get('test-email', [ProductController::class, 'test_mail']);
-                Route::get('list', [ProductController::class, 'list'])->name('list');
-                Route::get('{id}/edit', [ProductController::class, 'edit'])->name('edit');
-                Route::put('{id}/update', [ProductController::class, 'update'])->name('update');
-                Route::delete('{id}/destroy', [ProductController::class, 'destroy'])->name('destroy');
-                Route::get('search', [ProductController::class, 'search'])->name('search');
+                Route::get('listproducts', [ProductController::class, 'listproducts'])->name('listproducts');
+                Route::get('{id}/editproducts', [ProductController::class, 'edit'])->name('editproducts');
+                Route::put('{id}/updateproducts', [ProductController::class, 'update'])->name('updateproducts');
+                Route::delete('{id}/destroyproducts', [ProductController::class, 'destroy'])->name('destroyproducts');
+                Route::get('searchproducts', [ProductController::class, 'search'])->name('searchproducts');
             });
         });
     });
