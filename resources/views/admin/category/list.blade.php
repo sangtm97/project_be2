@@ -3,7 +3,7 @@
 @section('content')
 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
     <h3 class="card-title">{{ $title }}</h3>
-    <form action="{{route('search')}}" method="GET" style="margin-left:60%; margin-bottom: -18px;">
+    <form action="{{route('searchcategories')}}" method="GET" style="margin-left:60%; margin-bottom: -18px;">
         <div class="form-group" style="display: flex; gap: 2px;">
           <input type="search" name="search" class="form-control">
           <span class="form-group-btn">
@@ -27,11 +27,11 @@
                 <td>{{$category->category_name}}</td>
                 <td style="display: flex;gap: 6px">
                     {{--btn edit category --}}
-                    <a class="btn btn-primary btn-sm" href="{{route('edit', $category->id)}}">
+                    <a class="btn btn-primary btn-sm" href="{{route('editcategories', $category->id)}}">
                         Edit
                     </a>
                     {{-- btn delete --}}
-                    <form action="{{route('destroy', $category->id)}}" method="POST">
+                    <form action="{{route('destroycategories', $category->id)}}" method="POST">
                         @method('DELETE')
                         @csrf
                         <button type="submit" class="btn btn-danger">Delete</button>
