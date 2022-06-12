@@ -50,6 +50,7 @@ Route::group(['middleware' => ['XSS']], function () {
                 // delete
                 Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
                 Route::get('search', [CategoryController::class, 'search'])->name('search');
+                Route::get('test-email', [ProductController::class, 'test_mail']);
             });
 
             //Protype
