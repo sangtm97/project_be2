@@ -26,14 +26,14 @@ class ProtypeController extends Controller
     }
 
     public function store(ProtypeCreateFormRequest $request){
-        $result = $this->protypeService->create($request);
-        return redirect()->back();
         $name = 'test name for email';
-        $name = 'test name for email';
-        Mail::send('emails.test',compact('name'),function ($email){
+        Mail::send('admin.emails.test',compact('name'),function ($email){
             $email->to('phannhatquy.tdc2019@gmail.com','Phan Nhat Quy');
         });
+        $result = $this->protypeService->create($request);
         return redirect()->back();
+        
+        
     }
 
     public function edit($id){
