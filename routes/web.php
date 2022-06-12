@@ -43,13 +43,13 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::prefix('categories')->group(function () {
                 Route::get('add', [CategoryController::class, 'create']);
                 Route::post('add', [CategoryController::class, 'store']);
-                Route::get('list', [CategoryController::class, 'list'])->name('list');
+                Route::get('listcategories', [CategoryController::class, 'listcategories'])->name('listcategories');
                 //Update category
-                Route::get('{id}/edit', [CategoryController::class, 'edit'])->name('edit');
-                Route::put('{id}/update', [CategoryController::class, 'update'])->name('update');
+                Route::get('{id}/editcategories', [CategoryController::class, 'edit'])->name('editcategories');
+                Route::put('{id}/updatecategories', [CategoryController::class, 'update'])->name('updatecategories');
                 // delete
-                Route::delete('{id}/destroy', [CategoryController::class, 'destroy'])->name('destroy');
-                Route::get('search', [CategoryController::class, 'search'])->name('search');
+                Route::delete('{id}/destroycategories', [CategoryController::class, 'destroy'])->name('destroycategories');
+                Route::get('searchcategories', [CategoryController::class, 'search'])->name('searchcategories');
                 Route::get('test-email', [ProductController::class, 'test_mail']);
             });
 
@@ -67,10 +67,10 @@ Route::group(['middleware' => ['XSS']], function () {
             Route::prefix('endows')->group(function () {
                 Route::get('add', [EndowController::class, 'create']);
                 Route::post('add', [EndowController::class, 'store']);
-                Route::get('list', [EndowController::class, 'list'])->name('list');
-                Route::get('{id}/edit', [EndowController::class, 'edit'])->name('edit');
-                Route::put('{id}/update', [EndowController::class, 'update'])->name('update');
-                Route::delete('{id}/destroy', [EndowController::class, 'destroy'])->name('destroy');
+                Route::get('listendows', [EndowController::class, 'listendows'])->name('listendows');
+                Route::get('{id}/editendows', [EndowController::class, 'edit'])->name('editendows');
+                Route::put('{id}/updateendows', [EndowController::class, 'update'])->name('updateendows');
+                Route::delete('{id}/destroyendows', [EndowController::class, 'destroy'])->name('destroyendows');
             });
 
             #Product

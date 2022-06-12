@@ -1,6 +1,9 @@
 @extends('admin.main')
 
 @section('content')
+<div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
+    <h3 class="card-title">{{ $title }}</h3>
+  </div>
     <form action="{{route('update', $products->id)}}" method="POST">
         @method('PUT')
         <div class="row">

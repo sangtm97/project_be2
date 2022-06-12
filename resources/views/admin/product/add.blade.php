@@ -1,5 +1,8 @@
 @extends('admin.main')
 @section('content')
+<div class="card-header" style="display: flex; justify-content: space-between; align-items: center">
+    <h3 class="card-title">{{ $title }}</h3>
+  </div>
 <form action="" method="POST" enctype="multipart/form-data">
     <div class="card-body">
         <div class="row">

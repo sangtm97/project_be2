@@ -41,11 +41,11 @@ class EndowController extends Controller
         $endows = Endow::findOrFail($id);
         $endows->endow_name = $request->input('endow_name');
         $endows->update();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listendows')->with(['message' => 'Success']);
     }
 
 
-    public function list(){
+    public function listendows(){
         $endows = Endow::latest('id')->paginate(50);
         return view('admin.endow.list',[
             'title'=>'List Endow'],
@@ -56,6 +56,6 @@ class EndowController extends Controller
     public function destroy($id){
         $endows = Endow::findOrFail($id);
         $endows->delete();
-        return redirect()->route('list')->with(['message' => 'Success']);
+        return redirect()->route('listendows')->with(['message' => 'Success']);
     }
 }

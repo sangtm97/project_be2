@@ -51,7 +51,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/admin/categories/list" class="nav-link">
+                            <a href="/admin/categories/listcategories" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List Category</p>
                             </a>
@@ -81,7 +81,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/admin/endows/list" class="nav-link">
+                            <a href="/admin/endows/listendows" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>List Endow</p>
                             </a>

@@ -50,11 +50,11 @@ class CategoryController extends Controller
         $categories = Category::findOrFail($id);
         $categories->category_name = $request->input('category_name');
         $categories->update();
-        return redirect()->route('list')->with(['message' => 'Update categoty Success']);
+        return redirect()->route('listcategories')->with(['message' => 'Update categoty Success']);
     }
 
 
-    public function list(){
+    public function listcategories(){
         $categories = Category::latest('id')->paginate(50);
         return view('admin.category.list',[
             'title'=>'List Category'],
@@ -66,7 +66,7 @@ class CategoryController extends Controller
     public function destroy($id){
         $categories = Category::findOrFail($id);
         $categories->delete();
-        return redirect()->route('list')->with(['message' => 'Delete category success']);
+        return redirect()->route('listcategories')->with(['message' => 'Delete category success']);
     }
 
     public function search(Request $request){

@@ -17,7 +17,7 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <li>
+      {{-- <li>
         <form action="{{route('search')}}" method="GET">
           <div class="form-group" style="display: flex; gap: 2px;">
             <input type="search" name="search" class="form-control">
@@ -26,7 +26,7 @@
             </span>
           </div>
         </form>
-      </li>
+      </li> --}}
       <li class="nav-item">
         <a class="nav-link" data-widget="fullscreen" href="#" role="button">
           <i class="fas fa-expand-arrows-alt"></i>
@@ -55,9 +55,9 @@
                   </div>
               @endif
             <div class="card card-primary mt-3">
-              <div class="card-header">
+              {{-- <div class="card-header">
                 <h3 class="card-title">{{ $title }}</h3>
-              </div>
+              </div> --}}
             <!-- noi dung -->
             @yield('content')
 
