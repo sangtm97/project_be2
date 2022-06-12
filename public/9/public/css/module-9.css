@@ -1,0 +1,49 @@
+@import "../vars.less";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-9 .container {
+  max-width: 1200px !important;
+  padding-top: 15px;
+}
+.module-9 .page-header__title {
+  font-size: 32px;
+  margin: 0;
+  padding: 42px 0 19px;
+  text-align: center;
+  color: #000;
+}
+.module-9 .fex {
+  display: flex;
+  gap: 20px;
+}
+.module-9 .card-product-img {
+  width: 200px;
+  background-color: #fff;
+}
+.module-9 .trending1 {
+  text-align: center;
+  padding-top: 15px;
+}
+.module-9 .trending {
+  margin-bottom: 0 !important;
+  font-weight: bold;
+}
+.module-9 .row-module-9 {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-top: 15px;
+}
+.module-9 .button-detail {
+  display: flex;
+}
+.module-9 .fex {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}

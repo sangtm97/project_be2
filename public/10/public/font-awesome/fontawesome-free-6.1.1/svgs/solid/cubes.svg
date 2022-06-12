@@ -1,0 +1,46 @@
+ant.builtin
+--       ^ punctuation.accessor
+--        ^^^^^^^^^^^ meta.property support.function.builtin
+
+    bit32;
+--  ^^^^^ support.constant.builtin
+
+    bit32.arshift();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^^^^ meta.property support.function.builtin
+
+    bit32.band();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^ meta.property support.function.builtin
+
+    bit32.bnot();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^ meta.property support.function.builtin
+
+    bit32.bor();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^ meta.property support.function.builtin
+
+    bit32.btest();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^^ meta.property support.function.builtin
+
+    bit32.bxor();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^ meta.property support.function.builtin
+
+    bit32.extract();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^^^^ meta.property support.function.builtin
+
+    bit32.lrotate();
+--  ^^^^^ support.constant.builtin
+--       ^ punctuation.accessor
+--        ^^^^^^^ m

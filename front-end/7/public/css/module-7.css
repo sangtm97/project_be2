@@ -1,0 +1,102 @@
+@import "../vars.less";
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-7 .container {
+  padding: 20px;
+}
+.module-7 .container h1 {
+  padding-top: 20px;
+}
+.module-7 .col-md-3 {
+  padding: 15px;
+}
+.module-7 .card {
+  position: relative;
+}
+.module-7 .card .btn-group {
+  position: absolute;
+  display: flex !important;
+  bottom: 25px;
+  right: 19%;
+}
+.module-7 .card:hover .btn-group .btn {
+  opacity: 1;
+}
+.module-7 .card .btn-group .btn {
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin: 0 5px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform 0.1s, opacity 0.1s, background 0.35s, color 0.35s;
+  box-shadow: 0px 2px 5px #000000;
+}
+.module-7 .card .btn-group .btn:hover {
+  background-color: #ff6f61;
+}
+.module-7 .card .btn-group .view {
+  transition-delay: 75ms;
+}
+.module-7 .card .btn-group .wish {
+  transition-delay: .15s;
+}
+.module-7 .carousel-control-prev {
+  width: 5% !important;
+  left: -50px;
+}
+.module-7 .carousel-control-next {
+  width: 5% !important;
+  right: -50px;
+}
+.module-7 .product-summary .meta-cat {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #767676;
+  display: inline-block;
+  margin-bottom: 5px;
+  box-shadow: none;
+  text-decoration: none;
+}
+.module-7 .product-summary .price {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+.module-7 .product-summary .product-title {
+  margin-top: 5px;
+  font-size: 16px;
+  margin: 0 0 3px;
+}
+@media (max-width: 767px) {
+  .module-7 .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .module-7 .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+.module-7 .carousel-inner .carousel-item.active,
+.module-7 .carousel-inner .carousel-item-next,
+.module-7 .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .module-7 .carousel-inner .carousel-item-end.active,
+  .module-7 .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .module-7 .carousel-inner .carousel-item-start.active,
+  .module-7 .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.module-7 .carousel-inner .carousel-item-end,
+.module-7 .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}

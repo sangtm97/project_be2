@@ -1,0 +1,18 @@
+<ConfigurationSettings>
+	<DataDir>C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Data</DataDir>
+	<LogDir>C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Log</LogDir>
+	<BackupDir>C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Backup</BackupDir>
+	<AllowedBrowsingFolders>C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Backup\|C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Log\|C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Data\</AllowedBrowsingFolders>
+	<CollationName>Latin1_General_CI_AS</CollationName>
+	<Language>1033</Language>
+	<TempDir>C:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Temp</TempDir>
+	<DeploymentMode>0</DeploymentMode>
+	<ErrorReportingMode>0</ErrorReportingMode>
+	<Security>
+		<DataProtection>
+			<RequiredProtectionLevel>1</RequiredProtectionLevel>
+		</DataProtection>
+		<AdministrativeDataProtection>
+			<RequiredProtectionLevel>1</RequiredProtectionLevel>
+		</AdministrativeDataProtection>
+		<RequireClientAuthentication>1</Req

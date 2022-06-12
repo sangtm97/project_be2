@@ -1,0 +1,64 @@
+
+</tr>
+<tr>
+<td><span class="detail-name"></span></td>
+<td>\Device\HarddiskVolume1\Program Files (x86)\NetSupport\NetSupport School\pluginiemodule.DLL</td>
+</tr>
+<tr>
+<td><span class="detail-name"></span></td>
+<td>\Device\HarddiskVolume1\Windows\SysWOW64\kernel32.dll</td>
+</tr>
+<tr>
+<td><span class="detail-name"></span></td>
+<td>\Device\HarddiskVolume1\Windows\SysWOW64\ntdll.dll</td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            info-log-entry
+                        ">
+<div class="log-entry-header">Power Policy:Active Power Plan</div>
+<div class="log-entry-content">
+<div class="log-entry-description">The current power plan in use</div>
+<table>
+<tr>
+<td><span class="detail-name">
+                    Plan Name
+                </span></td>
+<td>
+                        OEM Balanced
+                    </td>
+</tr>
+<tr>
+<td><span class="detail-name">Plan GUID</span></td>
+<td>{381b4222-f694-41f0-9685-ff5bb260df2e}</td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            info-log-entry
+                        ">
+<div class="log-entry-header">Power Policy:Power Plan Personality (Plugged In)</div>
+<div class="log-entry-content">
+<div class="log-entry-description">The personality of the current power plan when the system is plugged in.</div>
+<table>
+<tr>
+<td><span class="detail-name">Personality</span></td>
+<td>
+                        Balanced
+                    </td>
+</tr>
+</table><span></span></div>
+</div>
+</div>
+<div class="log-entry">
+<div class="
+                            info-log-entry
+                        ">
+<div class="log-entry-header">Power Policy:Video quality (Plugged In)</div>
+<div class="log-entry-content">
+<div class="log-en

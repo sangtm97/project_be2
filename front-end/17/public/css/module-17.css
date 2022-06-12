@@ -1,0 +1,91 @@
+@import "../vars.less";
+body {
+  font-family: 'Jost', sans-serif;
+}
+.module-17 .modal .container .row .col-md-5 a {
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  text-align: center;
+  background-color: #ff6f61;
+  color: #ffffff;
+  z-index: 1;
+}
+.module-17 .modal .container .row .col-md-7 .cart .progress {
+  width: 90%;
+  background-color: #f5f5f5;
+  display: flex;
+  height: 7px;
+}
+.module-17 .modal .container .row .col-md-7 .cart .progress-bar {
+  background-color: #ff6f61;
+}
+.module-17 .modal .container .row .col-md-7 .cart .percent-value {
+  margin-top: -2.5%;
+  margin-right: 4%;
+}
+.module-17 .modal .container .row .col-md-7 .cart .add_to_cart_button {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  display: inline-block;
+  background-color: #111;
+  color: #fff;
+  padding: 0 37px;
+  text-align: center;
+  transition: ease .3s;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  margin-right: 18px;
+  min-width: 230px;
+}
+.module-17 .modal .container .row .col-md-7 .cart .buy-now-button {
+  border: 1px solid;
+  color: #111;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition: ease .3s;
+  white-space: nowrap;
+  text-decoration: none;
+  min-width: 140px;
+  margin-right: 18px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+.module-17 .modal .container .row .col-md-7 .cart .add_to_wishlist {
+  text-decoration: none;
+  font-size: 20px;
+  order: 2;
+  margin-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+  color: #111;
+}
+.module-17 .modal .container .row .col-md-7 .cart .loop_button-text {
+  display: none;
+}
+.module-17 .modal .container .row .col-md-7 .product_meta .posted_in a {
+  color: #525252;
+  outline: none;
+  transition: .5s;
+  text-decoration: none;
+}
+.module-17 .modal .container .row .col-md-7 .product_meta .tagged_as a {
+  color: #525252;
+  outline: none;
+  transition: .5s;
+  text-decoration: none;
+}
